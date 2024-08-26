@@ -49,8 +49,11 @@ header li .nav-link {
 /* Hero */
 
 .hero {
-    height: 500px;
     background: linear-gradient(45deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+.hero-page {
+    height: 500px;
 }
 
 .hero-heading {
@@ -59,21 +62,47 @@ header li .nav-link {
     font-weight: 700;
 }
 
+.hero-content {
+    opacity: 0.8;
+}
+
+.service-button {
+    background-color: #ffffff !important;
+    color: var(--primary-color);
+    border: none;
+    padding: 12px 45px !important;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    border: 1px solid #ffffff !important;
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+.social-icons li a:hover {
+    background-color: #ffffff;
+    color: var(--primary-color) !important;
+    transition: all 0.3s ease;
+}
+
 @media (min-width: 769px) {
-    .hero {
-      height: 600px; /* Adjust height for small desktops */
-      padding: 40px;
+    .hero-page {
+        height: 600px;
+        /* Adjust height for small desktops */
     }
 
     .hero-heading {
         font-size: 60px;
     }
-  }
-  
-  /* Large desktops (min-width: 1200px) */
-  @media (min-width: 1200px) {
-    .hero {
-      height: 800px; /* Adjust height for large desktops */
-      padding: 50px;
+}
+
+/* Large desktops (min-width: 1200px) */
+@media (min-width: 1200px) {
+    .hero-page {
+        height: 700px;
+        /* Adjust height for large desktops */
     }
-  }
+}
