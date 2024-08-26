@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #232C3C;
+    --secondary-color: #4A5D81;
+    --accent-color: #F0A500;
+    --background-color: #F5F5F5;
+    --text-color: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+
+nav {
+    background-color: var(--background-color)!important;
+}
+
+.navbar-brand {
+    width: 180px;
+
+}
+
+header li .nav-link{
+    color: var(--primary-color)!important;
+    padding: 10px 0 10px 30px!important;
+}
