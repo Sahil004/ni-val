@@ -85,7 +85,7 @@ header li .nav-link {
     transition: background-color 0.5s ease;
 }
 
-button:hover {
+.service-button:hover {
     border: 1px solid #ffffff !important;
     background-color: transparent !important;
     color: #ffffff !important;
@@ -123,6 +123,22 @@ button:hover {
     line-height: 29px;
 }
 
+.about-button {
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+    border: none;
+    padding: 12px 45px !important;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.about-button:hover {
+    border: 1px solid var(--primary-color) !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+
 /* Counters */
 
 .counters {
@@ -147,8 +163,8 @@ button:hover {
 }
 
 .counter-title {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 @media (min-width: 769px) {
