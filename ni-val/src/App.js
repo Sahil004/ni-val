@@ -3,6 +3,7 @@ import './App.css';
 import Header from "./components/Header";
 import Hero from './components/Hero';
 import Aboutus from './components/Aboutus';
+import Counters from './components/Counters';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <Aboutus />
+      <Counters />
       {/* Other components go here */}
     </div>
   );

@@ -3,7 +3,7 @@
     --secondary-color: #3C3323;
     --accent-color: #F0A500;
     --background-color: #F5F5F5;
-    --text-color: #333333;
+    --text-color: #88879e;
 }
 
 * {
@@ -49,7 +49,16 @@ header li .nav-link {
 /* Hero */
 
 .hero {
-    background: linear-gradient(45deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.5)
+            /* Same color to cover the entire section */
+        ),
+        url('./images/home02.jpg');
+    /* Background image */
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-page {
@@ -86,6 +95,60 @@ button:hover {
     background-color: #ffffff;
     color: var(--primary-color) !important;
     transition: all 0.3s ease;
+}
+
+/* About us */
+
+.about-us {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+.about-subheading {
+    color: var(--secondary-color);
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about-heading {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: var(--primary-color);
+}
+
+.about-content {
+    color: var(--text-color);
+    line-height: 29px;
+}
+
+/* Counters */
+
+.counters {
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('./images/home03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.counter {
+    color: #ffffff;
+}
+
+.counter-number {
+    font-size: 84px;
+    line-height: 84px;
+    font-weight: 800;
+}
+
+.counter-title {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 @media (min-width: 769px) {
