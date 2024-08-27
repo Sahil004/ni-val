@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className="row">
                     <div class="container footer-bottom">
                         <div class="copyright text-white text-center">
-                            © Copyright <strong><span>Saviour Technologies</span></strong>. All Rights Reserved
+                            © Copyright <strong><span>Ni-val Technologies</span></strong>. All Rights Reserved
                         </div>
                     </div>
                 </div>
