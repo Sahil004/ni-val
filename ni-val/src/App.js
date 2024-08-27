@@ -1,17 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
-import Hero from './components/Hero';
-import Aboutus from './components/Aboutus';
-import Counters from './components/Counters';
+import Home from './components/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <Aboutus />
-      <Counters />
+      <Home />
       {/* Other components go here */}
     </div>
   );
