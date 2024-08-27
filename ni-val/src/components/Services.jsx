@@ -20,8 +20,8 @@ const Services = () => {
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
                                         <div className="service-content">
-                                            <h2 className="service-head">Targeted Lead Generation</h2>
-                                            <p className="service-description"> Identifying and reaching out to potential clients who are most likely to benefit from your offerings.</p>
+                                            <h2 className="service-head">Lead Generation Strategy Development</h2>
+                                            <p className="service-description">Crafting customized strategies for lead acquisition.</p>
                                         </div>
                                     </a>
                                 </div>

@@ -48,9 +48,12 @@ const Footer = () => {
                     <div className="col-md-6 col-lg-3 footer-services">
                         <h4 className="text-white">Services</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#services" className="text-white">Design</a></li>
-                            <li><a href="#services" className="text-white">Technologies</a></li>
-                            <li><a href="#services" className="text-white">Business</a></li>
+                            <li><a href="#services" className="text-white">Lead Generation Strategy Development</a></li>
+                            <li><a href="#services" className="text-white">Email Marketing Campaigns</a></li>
+                            <li><a href="#services" className="text-white">Content Marketing</a></li>
+                            <li><a href="#services" className="text-white">SEO Optimization</a></li>
+                            <li><a href="#services" className="text-white">Social Media Lead Generation</a></li>
+                            <li><a href="#services" className="text-white">Pay-Per-Click Advertising</a></li>
                         </ul>
                     </div>
                     <div className="col-md-6 col-lg-3 footer-nav">
