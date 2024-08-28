@@ -8,9 +8,13 @@ import Top from './components/Top';
 
 function App() {
   return (
-    <Router>
-
-    </Router>
+    <div className="App">
+      <Header />
+      <Home />
+      <Footer />
+      <Top />
+      {/* Other components go here */}
+    </div>
   );
 }
 
