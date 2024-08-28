@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="contact" class="contact section-padding">
             <div class='container contact-main'>
                 <div class='row'>
-                    <div className="col-lg-7 mb-4">
+                    <div className="col-md-10 mx-auto col-lg-7 mb-4">
                         <div class='p-3 p-lg-5 contact-form h-100'>
                             <h4 class='text-uppercase section-subheading mb-5 fw-bold'>Send us a message</h4>
                             <form id="form1" method="post" action="#">
@@ -33,7 +33,7 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
-                    <div className="col-lg-5">
+                    <div className="col-md-10 mx-auto col-lg-5 mb-4">
                         <div class='p-3 p-lg-5 contact-info h-100'>
                             <h4 class='text-uppercase section-subheading fw-bold'>Contact info</h4>
                             <h2 className='section-heading'>Get in touch, send us an e-mail or call us</h2>

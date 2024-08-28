@@ -6,7 +6,8 @@
     --accent-color: #F0A500;
     --background-color: #F5F5F5;
     --text-color: #88879e;
-    --primary-font: "Roboto", sans-serif;;
+    --primary-font: "Roboto", sans-serif;
+    ;
 }
 
 * {
@@ -25,6 +26,12 @@ img {
 a {
     text-decoration: none !important;
     color: initial !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none !important;
 }
 
 /* header */
@@ -256,7 +263,8 @@ header li .nav-link {
     padding-bottom: 6em;
 }
 
-.contact-form, .contact-info {
+.contact-form,
+.contact-info {
     background-color: #ffffff;
     border-radius: 30px 0 30px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);

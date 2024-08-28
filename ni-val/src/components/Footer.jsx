@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 col-lg-3">
+                    <div className="col-md-6 col-lg-3 mb-4">
                         <div className="footer-logo mb-3 pb-2">
                             <a href="#"><img src="/images/ni-val-brand.png" alt="Logo" /></a>
                         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 col-lg-3 footer-nav">
+                    <div className="col-md-6 col-lg-3 footer-nav mb-4">
                         <h4 className="text-white">Links</h4>
                         <ul className="list-unstyled">
                             <li><a href="#" className="text-white">Home</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <li><a href="#contact" className="text-white">Contact</a></li>
                         </ul>
                     </div>
-                    <div className="col-md-6 col-lg-3 footer-services">
+                    <div className="col-md-6 col-lg-3 footer-services mb-4">
                         <h4 className="text-white">Services</h4>
                         <ul className="list-unstyled">
                             <li><a href="#services" className="text-white">Lead Generation Strategy Development</a></li>
@@ -56,7 +56,7 @@ const Footer = () => {
                             <li><a href="#services" className="text-white">Pay-Per-Click Advertising</a></li>
                         </ul>
                     </div>
-                    <div className="col-md-6 col-lg-3 footer-nav">
+                    <div className="col-md-6 col-lg-3 footer-nav mb-4">
                         <h4 className="text-white">Contact</h4>
                         <div className="d-flex flex-column my-3">
                             <div className="d-flex pb-1 text-white opacity-75">
