@@ -9,13 +9,13 @@ const Services = () => {
                         <h4 className='section-subheading'>Our Services</h4>
                         <h2 className='section-heading'>Tailored Solutions for Accelerating Business Growth</h2>
                         <p className='section-content'>We specialize in driving B2B growth through customized lead generation strategies. Our services are designed to enhance your sales pipeline, nurture prospects, and provide in-depth market insights.</p>
-                        <a className='btn section-button rounded-pill fw-semibold'>Know More</a>
+                        <a className='btn section-button rounded-pill fw-semibold' href='/service'>Know More</a>
                     </div>
                     <div className="col-lg-8">
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-md-5 col-lg-4 service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#lead-generation" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
@@ -26,7 +26,7 @@ const Services = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-5 col-lg-4 service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#email-marketing" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
@@ -37,7 +37,7 @@ const Services = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-5 col-lg-4 d-flex service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#content-marketing" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
@@ -48,7 +48,7 @@ const Services = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-5 col-lg-4 service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#seo-optimization" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
@@ -59,7 +59,7 @@ const Services = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-5 col-lg-4 service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#social-media-leads" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>
@@ -70,7 +70,7 @@ const Services = () => {
                                     </a>
                                 </div>
                                 <div className="col-md-5 col-lg-4 service-box">
-                                    <a href="#" className="service text-center d-block p-4 h-100">
+                                    <a href="/service#ppc-advertising" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i class="fi fi-ts-bullseye-arrow"></i>
                                         </div>

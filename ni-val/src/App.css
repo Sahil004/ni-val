@@ -10,6 +10,10 @@
     ;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -64,7 +68,7 @@ header li .nav-link {
 
 /* Hero */
 
-.hero {
+.home-hero {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5),
             /* Dark overlay with transparency */
@@ -72,10 +76,10 @@ header li .nav-link {
             /* Same color to cover the entire section */
         ),
         url('./images/home02.jpg');
-    /* Background image */
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .hero-page {
     height: 500px;
@@ -363,6 +367,39 @@ iframe {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     border-radius: 50%;
+}
+
+/* Service Page */
+
+.service-hero-heading {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.service-hero {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.5)
+            /* Same color to cover the entire section */
+        ),
+        url('./images/service-hero2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+}
+
+.service-hero-page {
+    height: 500px;
+}
+
+.service-block {
+    background-color: var(--background-color);
+}
+
+.our-service-row {
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 @media (min-width: 769px) {

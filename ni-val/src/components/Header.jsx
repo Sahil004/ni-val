@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
     return (
@@ -6,7 +7,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container d-flex justify-content-between align-items-center">
                     {/* Brand */}
-                    <a className="navbar-brand" href="#"><img src="/images/ni-val-brand.png" alt="Logo" /></a>
+                    <HashLink className="navbar-brand" to="/"><img src="/images/ni-val-brand.png" alt="Logo" /></HashLink>
 
                     {/* Offcanvas Toggler */}
                     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -22,16 +23,26 @@ const Header = () => {
                         <div className="offcanvas-body">
                             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                    <HashLink className="nav-link" exact to="/">Home</HashLink>
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <HashLink className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
+                                        Services
+                                    </HashLink>
+                                    <ul className="dropdown-menu border-0 fs-6">
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#lead-generation">Lead Generation Strategy Development</HashLink></li>
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#email-marketing">Email Marketing Campaigns</HashLink></li>
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#content-marketing">Content Marketing</HashLink></li>
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#seo-optimization">SEO Optimization</HashLink></li>
+                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#ppc-advertising">Pay-Per-Click (PPC) Advertising</HashLink></li>
+                                    </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
+                                    <HashLink className="nav-link" to="/about">About</HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <HashLink className="nav-link" to="/contact">Contact</HashLink>
                                 </li>
                             </ul>
                         </div>
@@ -41,16 +52,26 @@ const Header = () => {
                     <div className="collapse navbar-collapse d-none d-lg-flex">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <HashLink className="nav-link" exact to="/">Home</HashLink>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <HashLink className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
+                                    Services
+                                </HashLink>
+                                <ul className="dropdown-menu border-0 fs-6">
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#lead-generation">Lead Generation Strategy Development</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#email-marketing">Email Marketing Campaigns</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#content-marketing">Content Marketing</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#seo-optimization">SEO Optimization</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#ppc-advertising">Pay-Per-Click (PPC) Advertising</HashLink></li>
+                                </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
+                                <HashLink className="nav-link" to="/about">About</HashLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
+                                <HashLink className="nav-link" to="/contact">Contact</HashLink>
                             </li>
                         </ul>
                     </div>
