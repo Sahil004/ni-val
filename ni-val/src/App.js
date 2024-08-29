@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Top from './components/Top';
 import Service from './components/Service/Service';
-import Aboutus from './components/Home/Aboutus';
+import About from './components/About/About';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/about" element={<Aboutus />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
       <Top />

@@ -43,10 +43,9 @@ const Footer = () => {
                         <h4 className="text-white">Links</h4>
                         <ul className="list-unstyled">
                             <li><HashLink className="text-white" to="/">Home</HashLink></li>
-                            <li><HashLink className="text-white" to="/#work">Work</HashLink></li>
-                            <li><HashLink className="text-white" to="/#services">Services</HashLink></li>
-                            <li><HashLink className="text-white" to="/#testimony">Clients</HashLink></li>
-                            <li><HashLink className="text-white" to="/#contact">Contact</HashLink></li>
+                            <li><HashLink className="text-white" to="/services">Services</HashLink></li>
+                            <li><HashLink className="text-white" to="/about">About</HashLink></li>
+                            <li><HashLink className="text-white" to="/contact">Contact</HashLink></li>
                         </ul>
                     </div>
 
