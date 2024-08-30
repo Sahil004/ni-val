@@ -12,7 +12,7 @@ const Hero = () => {
                     <div className="col-md-6">
                         <h1 className='hero-heading text-light'>Data-Driven Email Marketing for Lead Growth</h1>
                         <p className="hero-content text-light">Harness the power of automation and analytics to build stronger relationships and increase sales.</p>
-                        <a className='btn service-button rounded-pill fw-semibold' href='/service'>Our Services</a>
+                        <a className='btn service-button rounded-pill fw-semibold' href='/contact'>Get Started</a>
                     </div>
                 </div>
             </div>

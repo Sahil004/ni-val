@@ -4,6 +4,9 @@ const Contact = () => {
     return (
         <section id="contact" class="contact section-padding">
             <div class='container contact-main'>
+                <h4 className='section-subheading'>Contact Us</h4>
+                <h2 className='section-heading'>Get in touch, send us an e-mail or call us</h2>
+
                 <div class='row'>
                     <div className="col-md-10 mx-auto col-lg-7 mb-4">
                         <div class='p-3 p-lg-5 contact-form h-100'>
@@ -36,10 +39,9 @@ const Contact = () => {
                     <div className="col-md-10 mx-auto col-lg-5 mb-4">
                         <div class='p-3 p-lg-5 contact-info h-100'>
                             <h4 class='text-uppercase section-subheading fw-bold'>Contact info</h4>
-                            <h2 className='section-heading'>Get in touch, send us an e-mail or call us</h2>
                             <div>
                                 <h3 class='sub-contact'>Address</h3>
-                                <p class='text-black opacity-75 sub-contact-para mb-3'>S. No 13 Kharadi, Near Zensar, Thite Nagar, Kharadi, <br/>Pune, Maharashtra 411014</p>
+                                <p class='text-black opacity-75 sub-contact-para mb-3'>S. No 13 Kharadi, Near Zensar, Thite Nagar, Kharadi, <br />Pune, Maharashtra 411014</p>
                             </div>
                             <div>
                                 <h3 class='sub-contact'>Email</h3>
@@ -53,7 +55,7 @@ const Contact = () => {
                                     <a href="tel:+91 9876543210">+91 9876543210</a>
                                 </p>
                             </div>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.618133955086!2d73.9363707749636!3d18.546150782552374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d7a6adb4ff%3A0xeb1184007148aedc!2sGulmohar%20Paradise%20Homes!5e0!3m2!1sen!2sin!4v1724788115289!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.618133955086!2d73.9363707749636!3d18.546150782552374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d7a6adb4ff%3A0xeb1184007148aedc!2sGulmohar%20Paradise%20Homes!5e0!3m2!1sen!2sin!4v1724788115289!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='google-map'></iframe>
                         </div>
                     </div>
 
