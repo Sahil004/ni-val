@@ -6,14 +6,14 @@ import serviceImage from '../../images/what-we-do.jpg';
 import approachImage from '../../images/approach.jpg';
 import integrityImage from '../../images/integrity.jpg';
 import innovationImage from '../../images/innovation.jpg';
-import excellenceImage from '../../images/excellence.jpg'
+import excellenceImage from '../../images/excellence.jpg';
 
 const AboutUs = () => {
     return (
         <section className="about-us">
             <div className="container">
                 {/* Who We Are Section */}
-                <div className="row py-5">
+                <div className="row py-5" data-aos="fade-up">
                     <div className="col-md-6">
                         <img src={teamImage} alt="Our Team" className="img-fluid" />
                     </div>
@@ -29,7 +29,7 @@ const AboutUs = () => {
                     <Counters />
                 </div>
                 {/* Our Mission Section */}
-                <div className="row py-5">
+                <div className="row py-5" data-aos="fade-left">
                     <div className="col-md-6 d-flex flex-column justify-content-center">
                         <h2 className="section-heading">Our Mission</h2>
                         <p className="section-content">
@@ -39,64 +39,64 @@ const AboutUs = () => {
                         </p>
                     </div>
                     <div className="col-md-6">
-                        <img src={missionImage} alt="Our Mission" className="img-fluid" />
+                        <img src={missionImage} alt="Our Mission" className="img-fluid about-img" />
                     </div>
                 </div>
 
                 {/* What We Do Section */}
-                <div class="container py-5">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-lg-6 col-md-12 px-0">
-                            <img src={serviceImage} alt="What We Do" />
+                <div className="container py-5">
+                    <div className="row align-items-center justify-content-between">
+                        <div className="col-lg-6 col-md-12 px-0" data-aos="fade-right">
+                            <img src={serviceImage} alt="What We Do" className="img-fluid about-img"/>
                         </div>
-                        <div class="col-xl-5 col-lg-6 col-md-10 mb-3">
+                        <div className="col-xl-5 col-lg-6 col-md-10 mb-3" data-aos="fade-left">
                             <h1 className="section-heading">What We Do?</h1>
                             <p className="section-content">
                                 We leverage cutting-edge technology, data-driven insights, and industry expertise to deliver tailored lead generation solutions.
                             </p>
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            <div className="accordion accordion-flush" id="accordionFlushExample">
+                                <div className="accordion-item" data-aos="fade-up">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseOne" aria-expanded="false"
                                             aria-controls="flush-collapseOne">Targeted Lead Generation</button>
                                     </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    <div id="flush-collapseOne" className="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Identifying and reaching out to potential clients who are most likely to benefit from your offerings.</div>
+                                        <div className="accordion-body">Identifying and reaching out to potential clients who are most likely to benefit from your offerings.</div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <div className="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                             aria-controls="flush-collapseTwo">Lead Nurturing</button>
                                     </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    <div id="flush-collapseTwo" className="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Engaging prospects with personalized content and strategies to build relationships and drive conversions.</div>
+                                        <div className="accordion-body">Engaging prospects with personalized content and strategies to build relationships and drive conversions.</div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <div className="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                                             aria-controls="flush-collapseThree">Market Research</button>
                                     </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    <div id="flush-collapseThree" className="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Providing deep insights into your industry and competitors to refine your approach and optimize results.</div>
+                                        <div className="accordion-body">Providing deep insights into your industry and competitors to refine your approach and optimize results.</div>
                                     </div>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                <div className="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                                    <h2 className="accordion-header">
+                                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseFour" aria-expanded="false"
                                             aria-controls="flush-collapseFour">Analytics and Reporting</button>
                                     </h2>
-                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    <div id="flush-collapseFour" className="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Offering detailed performance metrics to track success and continuously improve our strategies.</div>
+                                        <div className="accordion-body">Offering detailed performance metrics to track success and continuously improve our strategies.</div>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ const AboutUs = () => {
                 </div>
 
                 {/* Our Approach Section */}
-                <div className="row py-5">
+                <div className="row py-5" data-aos="fade-up">
                     <div className="col-md-6 d-flex flex-column justify-content-center">
                         <h2 className="section-heading">Our Approach</h2>
                         <p className="section-content">
@@ -114,12 +114,12 @@ const AboutUs = () => {
                         </p>
                     </div>
                     <div className="col-md-6">
-                        <img src={approachImage} alt="Our Approach" className="img-fluid" />
+                        <img src={approachImage} alt="Our Approach" className="img-fluid about-img" />
                     </div>
                 </div>
 
                 {/* Why Choose Us Section */}
-                <div className="row py-5">
+                <div className="row py-5" data-aos="fade-left">
                     <div className="col-md-12 col-lg-6 d-flex flex-column justify-content-center order-lg-2">
                         <h2 className="section-heading">Why Choose Ni-Val?</h2>
                         <p className="section-content">
@@ -130,7 +130,7 @@ const AboutUs = () => {
                     <div className="col-md-12 col-lg-6">
                         <div className="container">
                             <div className="row justify-content-center">
-                                <div className="col-md-5 service-box">
+                                <div className="col-md-5 service-box" data-aos="fade-up">
                                     <a href="/about#expertise" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i className="fa fa-briefcase"></i>
@@ -141,7 +141,7 @@ const AboutUs = () => {
                                         </div>
                                     </a>
                                 </div>
-                                <div className="col-md-5 service-box">
+                                <div className="col-md-5 service-box" data-aos="fade-up" data-aos-delay="100">
                                     <a href="/about#customized-solutions" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i className="fa fa-cogs"></i>
@@ -152,7 +152,7 @@ const AboutUs = () => {
                                         </div>
                                     </a>
                                 </div>
-                                <div className="col-md-5 service-box">
+                                <div className="col-md-5 service-box" data-aos="fade-up" data-aos-delay="200">
                                     <a href="/about#results-driven" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i className="fa fa-chart-line"></i>
@@ -163,7 +163,7 @@ const AboutUs = () => {
                                         </div>
                                     </a>
                                 </div>
-                                <div className="col-md-5 service-box">
+                                <div className="col-md-5 service-box" data-aos="fade-up" data-aos-delay="300">
                                     <a href="/about#transparency" className="service text-center d-block p-4 h-100">
                                         <div className="service-logo mb-3">
                                             <i className="fa fa-eye"></i>
@@ -179,9 +179,8 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-
                 {/* Our Values Section */}
-                <div className="row mb-5">
+                <div className="row mb-5" data-aos="fade-up">
                     <div className="col-xl-9 mx-auto">
                         <h2 className="section-heading text-center">Our Values</h2>
                         <div className="row text-center">
@@ -222,14 +221,13 @@ const AboutUs = () => {
                     </div>
                 </div>
                 {/* Contact Us Section */}
-                <div className="row mb-5 align-items-center">
+                <div className="row mb-5 align-items-center" data-aos="fade-up">
                     <div className="col-lg-8">
                         <h2 className="section-heading">Contact us today to learn how <strong>Ni-Val</strong> can help you achieve your business goals.</h2>
                     </div>
                     <div className="col-lg-4">
                         <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us</a>
                     </div>
-
                 </div>
             </div>
         </section>

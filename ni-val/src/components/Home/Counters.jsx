@@ -55,25 +55,44 @@ const Counters = () => {
     <section className="counters">
       <div className="container">
         <div className="row text-center">
-          <div className="col-md-6 col-lg-3 pb-5">
+          <div
+            className="col-md-6 col-lg-3 pb-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div className="counter" data-target="300" ref={el => counters.current[0] = el}>
               <div className="counter-number">0</div>
               <div className="counter-title">Projects Completed</div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 pb-5">
+          <div
+            className="col-md-6 col-lg-3 pb-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
             <div className="counter" data-target="10000" ref={el => counters.current[1] = el}>
               <div className="counter-number">0</div>
               <div className="counter-title">Leads Generated</div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 pb-5">
+          <div
+            className="col-md-6 col-lg-3 pb-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="400"
+          >
             <div className="counter" data-target="15" ref={el => counters.current[2] = el}>
               <div className="counter-number">0</div>
               <div className="counter-title">Years of Expertise</div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-3 pb-5">
+          <div
+            className="col-md-6 col-lg-3 pb-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="600"
+          >
             <div className="counter" data-target="95" ref={el => counters.current[3] = el}>
               <div className="counter-number">0</div>
               <div className="counter-title">Client Satisfaction (%)</div>

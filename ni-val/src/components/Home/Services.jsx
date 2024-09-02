@@ -7,9 +7,11 @@ const Services = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4 mb-4">
-                        <h4 className='section-subheading'>Our Services</h4>
-                        <h2 className='section-heading'>Tailored Solutions for Accelerating Business Growth</h2>
-                        <p className='section-content'>We specialize in driving B2B growth through customized lead generation strategies. Our services are designed to enhance your sales pipeline, nurture prospects, and provide in-depth market insights.</p>
+                        <h4 className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Our Services</h4>
+                        <h2 className='section-heading' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Tailored Solutions for Accelerating Business Growth</h2>
+                        <p className='section-content' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                            We specialize in driving B2B growth through customized lead generation strategies. Our services are designed to enhance your sales pipeline, nurture prospects, and provide in-depth market insights.
+                        </p>
                     </div>
                     <div className="col-lg-8">
                         <div className="container">
@@ -52,7 +54,13 @@ const Services = () => {
                                         detailPage: "/service/ppc-advertising"
                                     }
                                 ].map((service, index) => (
-                                    <div key={index} className="col-md-5 col-lg-4 service-box">
+                                    <div
+                                        key={index}
+                                        className="col-md-5 col-lg-4 service-box"
+                                        data-aos="fade-up"
+                                        data-aos-duration="1000"
+                                        data-aos-delay={index * 100}
+                                    >
                                         <div className="service text-center d-block p-4 h-100">
                                             <div className="service-logo mb-3">
                                                 <i className={service.iconClass} aria-hidden="true"></i>
