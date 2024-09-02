@@ -60,8 +60,8 @@ const Header = () => {
                                     Services
                                 </HashLink>
                                 <ul className="dropdown-menu border-0 fs-6">
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#lead-generation">Lead Generation Strategy Development</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#email-marketing">Email Marketing Campaigns</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</HashLink></li>
+                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</HashLink></li>
                                     <li><HashLink className="dropdown-item py-2 fw-light" to="/service#content-marketing">Content Marketing</HashLink></li>
                                     <li><HashLink className="dropdown-item py-2 fw-light" to="/service#seo-optimization">SEO Optimization</HashLink></li>
                                     <li><HashLink className="dropdown-item py-2 fw-light" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>

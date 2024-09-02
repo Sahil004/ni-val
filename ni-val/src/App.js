@@ -8,11 +8,13 @@ import Top from './components/Top';
 import Service from './components/Service/Service';
 import About from './components/About/About';
 import Contactus from './components/contact/Contactus';
-import LeadGen from './components/Service/LeadGeneration/LeadGen'
+import LeadGen from './components/Service/LeadGen';
+import EmailMarketing from './components/Service/EmailMarketing';
 
 import 'aos/dist/aos.css';  // Import AOS styles
 import AOS from 'aos';      // Import AOS
 import ScrollToTop from './components/ScrollToTop';
+
 
 function App() {
   useEffect(() => {
@@ -32,6 +34,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contactus />} />
         <Route path="/lead-generation" element={<LeadGen />}/>
+        <Route path="/email-marketing" element={<EmailMarketing />} />
       </Routes>
       <Footer />
       <Top />

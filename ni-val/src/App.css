@@ -433,6 +433,18 @@ iframe {
     background-position: 50%;
 }
 
+.email-marketing {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.7)
+            /* Same color to cover the entire section */
+        ), url(./images/email-marketing-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
 /* About Us */
 
 .about-us {

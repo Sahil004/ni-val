@@ -27,7 +27,7 @@ const ServiceBlock = () => {
                     <div className="col-md-6 our-service-box ps-4" data-aos="fade-left">
                         <h2 className='section pb-4'>Email Marketing Campaigns</h2>
                         <p className="section-content">Our email marketing services are designed to nurture leads through targeted, engaging campaigns. Whether you need to generate new leads or move existing prospects through the sales funnel, our email campaigns are optimized for high open rates, click-through rates, and conversions.</p>
-                        <a className='btn section-button rounded-pill fw-semibold' href='/service'>Know More</a>
+                        <a className='btn section-button rounded-pill fw-semibold' href='/email-marketing'>Know More</a>
                     </div>
                 </div>
                 <div className="row align-items-center mb-5 our-service-row" id='content-marketing' data-aos="fade-up">
