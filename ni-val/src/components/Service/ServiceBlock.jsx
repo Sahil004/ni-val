@@ -47,14 +47,14 @@ const ServiceBlock = () => {
                     <div className="col-md-6 our-service-box ps-4" data-aos="fade-left">
                         <h2 className='section pb-4'>SEO Optimization</h2>
                         <p className="section-content">Improve your online visibility and drive more organic traffic to your site with our SEO Optimization service. We conduct thorough keyword research, optimize on-page content, and build high-quality backlinks to ensure your website ranks higher in search engines for relevant queries.</p>
-                        <a className='btn section-button rounded-pill fw-semibold' href='/service'>Know More</a>
+                        <a className='btn section-button rounded-pill fw-semibold' href='/seo-optimization'>Know More</a>
                     </div>
                 </div>
                 <div className="row align-items-center mb-5 our-service-row" id='social-media-leads' data-aos="fade-up">
                     <div className="col-md-6 our-service-box pe-4" data-aos="fade-right">
                         <h2 className='section pb-4'>Social Media Lead Generation</h2>
                         <p className="section-content">Leverage the power of social media platforms like LinkedIn, Facebook, and Twitter to find and engage with potential leads. Our social media lead generation service includes creating targeted campaigns that capture the attention of decision-makers and influencers in your industry.</p>
-                        <a className='btn section-button rounded-pill fw-semibold' href='/service'>Know More</a>
+                        <a className='btn section-button rounded-pill fw-semibold' href='/social-media-leads'>Know More</a>
                     </div>
                     <div className="col-md-6" data-aos="fade-left">
                         <img src={socialMediaLeadGeneration} alt="Social Media Lead Generation" className='service-img' />

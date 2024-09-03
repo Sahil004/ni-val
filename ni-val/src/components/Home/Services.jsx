@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 
 const Services = () => {
     return (
@@ -21,37 +20,37 @@ const Services = () => {
                                         iconClass: "fa fa-bullseye",
                                         heading: "Lead Generation Strategy Development",
                                         description: "Crafting customized strategies for lead acquisition.",
-                                        detailPage: "/service/lead-generation"
+                                        detailPage: "/lead-generation"
                                     },
                                     {
                                         iconClass: "fa fa-envelope",
                                         heading: "Email Marketing Campaigns",
                                         description: "Designing and executing email campaigns targeted at potential leads.",
-                                        detailPage: "/service/email-marketing"
+                                        detailPage: "/email-marketing"
                                     },
                                     {
                                         iconClass: "fa fa-pencil-alt",
                                         heading: "Content Marketing",
                                         description: "Creating content like whitepapers, case studies, and blog posts to attract leads.",
-                                        detailPage: "/service/content-marketing"
+                                        detailPage: "/content-marketing"
                                     },
                                     {
                                         iconClass: "fa fa-search",
                                         heading: "SEO Optimization",
                                         description: "Enhancing website and content to rank higher in search engines.",
-                                        detailPage: "/service/seo-optimization"
+                                        detailPage: "/seo-optimization"
                                     },
                                     {
                                         iconClass: "fa fa-share-alt",
                                         heading: "Social Media Lead Generation",
                                         description: "Using social platforms to find and engage with potential leads.",
-                                        detailPage: "/service/social-media-leads"
+                                        detailPage: "/social-media-leads"
                                     },
                                     {
                                         iconClass: "fa fa-dollar-sign",
                                         heading: "Pay-Per-Click Advertising",
                                         description: "Running PPC campaigns on platforms like Google Ads or LinkedIn.",
-                                        detailPage: "/service/ppc-advertising"
+                                        detailPage: "/ppc-advertising"
                                     }
                                 ].map((service, index) => (
                                     <div

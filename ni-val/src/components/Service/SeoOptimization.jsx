@@ -1,10 +1,11 @@
 import React from 'react';
-import emailMarketing from '../../images/email-marketing-lg.jpg';
+import seoOptimization from '../../images/seo.jpg'; // Adjust the path as necessary
 
-const EmailMarketing = () => {
+const SeoOptimizationPage = () => {
     return (
         <main className='service-page'>
-            <section className="hero email-marketing">
+            {/* Hero Section */}
+            <section className="hero seo-optimization">
                 <div className="container">
                     <div className="row align-items-center hero-page">
                         <div
@@ -19,7 +20,7 @@ const EmailMarketing = () => {
                                 data-aos-duration="1200"
                                 data-aos-delay="500"
                             >
-                                Email Marketing Campaigns
+                                SEO Optimization
                             </h1>
                             <p
                                 className="hero-content text-light"
@@ -27,7 +28,7 @@ const EmailMarketing = () => {
                                 data-aos-duration="1300"
                                 data-aos-delay="600"
                             >
-                                Nurturing Leads through Engaging Email Campaigns
+                                Enhance Your Online Presence and Drive More Traffic
                             </p>
                             <a
                                 className='btn service-button rounded-pill fw-semibold'
@@ -42,65 +43,77 @@ const EmailMarketing = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Overview Section */}
             <section className="service-overview pt-5">
                 <div className="container">
-                    <div className="row align-items-center mb-5 our-service-row" data-aos="fade-up">
-                        <div className="col-md-6" data-aos="fade-right">
-                            <img src={emailMarketing} alt="Email Marketing Campaigns" className='service-img' />
-                        </div>
-                        <div className="col-md-6 our-service-box ps-4" data-aos="fade-left">
-                            <h2 className='section pb-4'>Our Email Marketing Services</h2>
+                    <div className="row align-items-center mb-5 our-service-row" id='seo-optimization' data-aos="fade-up">
+                        <div className="col-md-6 our-service-box pe-4" data-aos="fade-right">
+                            <h2 className='section pb-4'>What We Offer</h2>
                             <p className="section-content">
-                                Our email marketing services are designed to nurture leads through targeted, engaging campaigns. Whether you need to generate new leads or move existing prospects through the sales funnel, our email campaigns are optimized for high open rates, click-through rates, and conversions.
+                                Our SEO Optimization service aims to boost your website’s visibility and drive organic traffic. We conduct comprehensive keyword research, optimize on-page elements, and build high-quality backlinks to enhance your search engine rankings.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold pb-4' href='/contact'>Get Started</a>
+                            <a className='btn section-button rounded-pill fw-semibold mb-4' href='/contact'>Get Started</a>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-left">
+                            <img src={seoOptimization} alt="SEO Optimization" className='service-img' />
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* Details Section */}
             <section className="service-details">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-envelope"></i>
+                                    <i className="fa fa-search"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">How It Works</h2>
-                                    <p className="service-description">We create personalized and targeted email campaigns based on data and insights to reach the right audience and achieve optimal results.</p>
+                                    <p className="service-description">
+                                        We start by analyzing your website and industry to identify opportunities for improvement. Our team then implements strategies to optimize your content, enhance site structure, and build authoritative backlinks.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-chart-line"></i>
+                                    <i className="fa fa-cogs"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">Our Approach</h2>
-                                    <p className="service-description">We use a data-driven approach and A/B testing to refine the email campaigns continuously, ensuring maximum engagement and conversions.</p>
+                                    <p className="service-description">
+                                        Our approach combines technical SEO with content optimization and strategic link building. We focus on delivering measurable results and adapting strategies based on data-driven insights.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-tasks"></i>
+                                    <i className="fa fa-line-chart"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">What You Can Expect</h2>
-                                    <p className="service-description">Expect high open rates, improved customer retention, and increased conversions as your prospects move through the sales funnel.</p>
+                                    <p className="service-description">
+                                        Expect increased search engine visibility, higher organic traffic, and improved website performance. Our efforts will help you achieve long-term growth and enhanced user engagement.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* CTA Section */}
             <section className="cta py-5 text-center container">
                 <div className="row mb-5 align-items-center" data-aos="fade-up">
                     <div className="col-lg-8">
-                        <h2 className="section-heading">Boost Your Business with Targeted Email Marketing!</h2>
+                        <h2 className="section-heading">Ready to Improve Your SEO?</h2>
                     </div>
                     <div className="col-lg-4">
                         <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
@@ -109,6 +122,6 @@ const EmailMarketing = () => {
             </section>
         </main>
     );
-};
+}
 
-export default EmailMarketing;
+export default SeoOptimizationPage;

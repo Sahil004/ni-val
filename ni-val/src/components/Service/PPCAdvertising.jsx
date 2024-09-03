@@ -1,10 +1,11 @@
 import React from 'react';
-import emailMarketing from '../../images/email-marketing-lg.jpg';
+import payPerClick from '../../images/pay-per-click.jpg'; // Adjust the path as necessary
 
-const EmailMarketing = () => {
+const PPCAdvertising = () => {
     return (
         <main className='service-page'>
-            <section className="hero email-marketing">
+            {/* Hero Section */}
+            <section className="hero ppc-advertising">
                 <div className="container">
                     <div className="row align-items-center hero-page">
                         <div
@@ -19,7 +20,7 @@ const EmailMarketing = () => {
                                 data-aos-duration="1200"
                                 data-aos-delay="500"
                             >
-                                Email Marketing Campaigns
+                                Pay-Per-Click (PPC) Advertising
                             </h1>
                             <p
                                 className="hero-content text-light"
@@ -27,7 +28,7 @@ const EmailMarketing = () => {
                                 data-aos-duration="1300"
                                 data-aos-delay="600"
                             >
-                                Nurturing Leads through Engaging Email Campaigns
+                                Drive Targeted Traffic and Boost Conversions
                             </p>
                             <a
                                 className='btn service-button rounded-pill fw-semibold'
@@ -42,65 +43,77 @@ const EmailMarketing = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Overview Section */}
             <section className="service-overview pt-5">
                 <div className="container">
-                    <div className="row align-items-center mb-5 our-service-row" data-aos="fade-up">
+                    <div className="row align-items-center mb-5 our-service-row" id='ppc-advertising' data-aos="fade-up">
                         <div className="col-md-6" data-aos="fade-right">
-                            <img src={emailMarketing} alt="Email Marketing Campaigns" className='service-img' />
+                            <img src={payPerClick} alt="Pay-Per-Click Advertising" className='service-img' />
                         </div>
                         <div className="col-md-6 our-service-box ps-4" data-aos="fade-left">
-                            <h2 className='section pb-4'>Our Email Marketing Services</h2>
+                            <h2 className='section pb-4'>What We Offer</h2>
                             <p className="section-content">
-                                Our email marketing services are designed to nurture leads through targeted, engaging campaigns. Whether you need to generate new leads or move existing prospects through the sales funnel, our email campaigns are optimized for high open rates, click-through rates, and conversions.
+                                Our PPC advertising service helps you drive targeted traffic to your website through paid search and display ads on platforms like Google Ads and LinkedIn. We optimize every aspect of your campaigns, from keyword selection to ad copy, to ensure maximum conversions with minimal ad spend.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold pb-4' href='/contact'>Get Started</a>
+                            <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Get Started</a>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* Details Section */}
             <section className="service-details">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-envelope"></i>
+                                    <i className="fab fa-google"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">How It Works</h2>
-                                    <p className="service-description">We create personalized and targeted email campaigns based on data and insights to reach the right audience and achieve optimal results.</p>
+                                    <p className="service-description">
+                                        We create targeted PPC campaigns designed to drive high-quality traffic to your site. This includes meticulous keyword research, ad creation, and continuous optimization to maximize ROI and ensure your ads reach the right audience.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-chart-line"></i>
+                                    <i className="fas fa-ad"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">Our Approach</h2>
-                                    <p className="service-description">We use a data-driven approach and A/B testing to refine the email campaigns continuously, ensuring maximum engagement and conversions.</p>
+                                    <p className="service-description">
+                                        Our approach includes detailed campaign strategy, continuous performance analysis, and adjustment of bids and ad copy to optimize results. We focus on maximizing your ad spend efficiency to achieve your business goals.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 service-box" data-aos="fade-up">
                             <div className="service text-center p-4 h-100">
                                 <div className="service-logo mb-3">
-                                    <i className="fa fa-tasks"></i>
+                                    <i className="fas fa-chart-line"></i>
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">What You Can Expect</h2>
-                                    <p className="service-description">Expect high open rates, improved customer retention, and increased conversions as your prospects move through the sales funnel.</p>
+                                    <p className="service-description">
+                                        Expect increased targeted traffic, higher conversion rates, and improved ROI. Our PPC advertising services will help you achieve better visibility and reach your target audience effectively.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* CTA Section */}
             <section className="cta py-5 text-center container">
                 <div className="row mb-5 align-items-center" data-aos="fade-up">
                     <div className="col-lg-8">
-                        <h2 className="section-heading">Boost Your Business with Targeted Email Marketing!</h2>
+                        <h2 className="section-heading">Ready to Drive More Traffic with PPC?</h2>
                     </div>
                     <div className="col-lg-4">
                         <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
@@ -109,6 +122,6 @@ const EmailMarketing = () => {
             </section>
         </main>
     );
-};
+}
 
-export default EmailMarketing;
+export default PPCAdvertising;

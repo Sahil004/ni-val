@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -27,16 +26,16 @@ const Header = () => {
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <HashLink className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
+                                    <Link className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
                                         Services
-                                    </HashLink>
+                                    </Link>
                                     <ul className="dropdown-menu border-0 fs-6">
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#lead-generation">Lead Generation Strategy Development</HashLink></li>
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#email-marketing">Email Marketing Campaigns</HashLink></li>
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#content-marketing">Content Marketing</HashLink></li>
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#seo-optimization">SEO Optimization</HashLink></li>
-                                        <li><HashLink className="dropdown-item py-2 fw-light" to="/service#ppc-advertising">Pay-Per-Click (PPC) Advertising</HashLink></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/social-media-leads">Social Media Lead Generation</Link></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/seo-optimization">SEO Optimization</Link></li>
+                                        <li><Link className="dropdown-item py-2 fw-light" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
@@ -56,16 +55,16 @@ const Header = () => {
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <HashLink className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
+                                <Link className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
                                     Services
-                                </HashLink>
+                                </Link>
                                 <ul className="dropdown-menu border-0 fs-6">
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#content-marketing">Content Marketing</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#seo-optimization">SEO Optimization</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>
-                                    <li><HashLink className="dropdown-item py-2 fw-light" to="/service#ppc-advertising">Pay-Per-Click (PPC) Advertising</HashLink></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/social-media-leads">Social Media Lead Generation</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/seo-optimization">SEO Optimization</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

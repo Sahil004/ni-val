@@ -445,6 +445,58 @@ iframe {
     background-position: 50%;
 }
 
+.content-marketing {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.7)
+            /* Same color to cover the entire section */
+        ), url(./images/content-marketing-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.seo-optimization {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.7)
+            /* Same color to cover the entire section */
+        ), url(./images/seo-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+.social-media-leads {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.7)
+            /* Same color to cover the entire section */
+        ), url(./images/social-media-lead-generation-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+.ppc-advertising {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            /* Dark overlay with transparency */
+            rgba(0, 0, 0, 0.7)
+            /* Same color to cover the entire section */
+        ), url(./images/pay-per-click-lg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+
 /* About Us */
 
 .about-us {

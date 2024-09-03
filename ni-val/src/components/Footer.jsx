@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -42,10 +42,10 @@ const Footer = () => {
                     <div className="col-md-6 col-lg-3 footer-nav mb-4">
                         <h4 className="text-white">Links</h4>
                         <ul className="list-unstyled">
-                            <li><HashLink className="text-white" to="/">Home</HashLink></li>
-                            <li><HashLink className="text-white" to="/services">Services</HashLink></li>
-                            <li><HashLink className="text-white" to="/about">About</HashLink></li>
-                            <li><HashLink className="text-white" to="/contact">Contact</HashLink></li>
+                            <li><Link className="text-white" to="/">Home</Link></li>
+                            <li><Link className="text-white" to="/service">Services</Link></li>
+                            <li><Link className="text-white" to="/about">About</Link></li>
+                            <li><Link className="text-white" to="/contact">Contact</Link></li>
                         </ul>
                     </div>
 
@@ -53,12 +53,12 @@ const Footer = () => {
                     <div className="col-md-6 col-lg-3 footer-services mb-4">
                         <h4 className="text-white">Services</h4>
                         <ul className="list-unstyled">
-                            <li><HashLink className="text-white" to="/lead-generation">Lead Generation Strategy Development</HashLink></li>
-                            <li><HashLink className="text-white" to="/email-marketing">Email Marketing Campaigns</HashLink></li>
-                            <li><HashLink className="text-white" to="/service#content-marketing">Content Marketing</HashLink></li>
-                            <li><HashLink className="text-white" to="/service#seo-optimization">SEO Optimization</HashLink></li>
-                            <li><HashLink className="text-white" to="/service#social-media-leads">Social Media Lead Generation</HashLink></li>
-                            <li><HashLink className="text-white" to="/service#ppc-advertising">Pay-Per-Click Advertising</HashLink></li>
+                            <li><Link className="text-white" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                            <li><Link className="text-white" to="/email-marketing">Email Marketing Campaigns</Link></li>
+                            <li><Link className="text-white" to="/content-marketing">Content Marketing</Link></li>
+                            <li><Link className="text-white" to="/seo-optimization">SEO Optimization</Link></li>
+                            <li><Link className="text-white" to="/social-media-leads">Social Media Lead Generation</Link></li>
+                            <li><Link className="text-white" to="/ppc-advertising">Pay-Per-Click Advertising</Link></li>
                         </ul>
                     </div>
 

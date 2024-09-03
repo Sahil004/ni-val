@@ -14,6 +14,10 @@ import EmailMarketing from './components/Service/EmailMarketing';
 import 'aos/dist/aos.css';  // Import AOS styles
 import AOS from 'aos';      // Import AOS
 import ScrollToTop from './components/ScrollToTop';
+import ContentMarketing from './components/Service/ContentMarketing';
+import SeoOptimizationPage from './components/Service/SeoOptimization';
+import SocialMediaLeads from './components/Service/SocialMediaLeadGen';
+import PPCAdvertising from './components/Service/PPCAdvertising';
 
 
 function App() {
@@ -35,6 +39,10 @@ function App() {
         <Route path="/contact" element={<Contactus />} />
         <Route path="/lead-generation" element={<LeadGen />}/>
         <Route path="/email-marketing" element={<EmailMarketing />} />
+        <Route path="/content-marketing" element={<ContentMarketing />} />
+        <Route path="/seo-optimization" element={<SeoOptimizationPage />} />
+        <Route path="/social-media-leads" element={<SocialMediaLeads />} />
+        <Route path="/ppc-advertising" element={<PPCAdvertising />} />
       </Routes>
       <Footer />
       <Top />
