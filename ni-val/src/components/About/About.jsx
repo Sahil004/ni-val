@@ -7,10 +7,18 @@ import approachImage from '../../images/approach.jpg';
 import integrityImage from '../../images/integrity.jpg';
 import innovationImage from '../../images/innovation.jpg';
 import excellenceImage from '../../images/excellence.jpg';
+import { Helmet } from 'react-helmet';
 
 const AboutUs = () => {
     return (
         <section className="about-us">
+            <Helmet>
+                <title>About Us - Ni-Val Technologies</title>
+                <meta name="description" content="Learn more about Ni-Val Technologies, our mission, values, and the team behind our innovative lead generation strategies." />
+                <meta name="keywords" content="Ni-Val Technologies, About Us, Lead Generation, B2B Services" />
+                <meta property="og:title" content="About Us - Ni-Val Technologies" />
+                <meta property="og:description" content="Learn more about Ni-Val Technologies, our mission, values, and the team behind our innovative lead generation strategies." />
+            </Helmet>
             <div className="container">
                 {/* Who We Are Section */}
                 <div className="row py-5" data-aos="fade-up">
@@ -226,7 +234,7 @@ const AboutUs = () => {
                         <h2 className="section-heading">Contact us today to learn how <strong>Ni-Val</strong> can help you achieve your business goals.</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </div>

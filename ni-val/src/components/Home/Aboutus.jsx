@@ -52,13 +52,13 @@ const Aboutus = () => {
               With a strong focus on customization, transparency, and measurable results, we partner with companies to deliver high-quality leads that convert into valuable, long-term business opportunities.
             </p>
             <a 
-              className='btn section-button rounded-pill fw-semibold' 
+              className='text-center section-button' 
               href='/about'
               data-aos="fade-up"
               data-aos-duration="1500"
               data-aos-delay="900"
             >
-              About Us
+              <span>About Us</span>
             </a>
           </div>
         </div>

@@ -30,7 +30,7 @@ const Header = () => {
                                         Services
                                     </Link>
                                     <ul className="dropdown-menu border-0 fs-6">
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
                                         <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
                                         <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
                                         <li><Link className="dropdown-item py-2 fw-light" to="/social-media-leads">Social Media Lead Generation</Link></li>
@@ -41,8 +41,8 @@ const Header = () => {
                                 <li className="nav-item">
                                     <Link className="nav-link" to="/about">About</Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/contact">Contact</Link>
+                                <li className="nav-item mt-5 mt-lg-0">
+                                    <Link className='text-center section-button' to="/contact"><span>Contact US</span></Link>
                                 </li>
                             </ul>
                         </div>
@@ -70,8 +70,9 @@ const Header = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact</Link>
+                            {/* Add extra space before Contact link */}
+                            <li className="nav-item ms-lg-5">
+                                <Link className='text-center section-button' to="/contact"><span>Contact Us</span></Link>
                             </li>
                         </ul>
                     </div>

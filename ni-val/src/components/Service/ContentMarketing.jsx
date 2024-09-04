@@ -51,7 +51,7 @@ const ContentMarketing = () => {
                         <div className="col-md-6 our-service-box pe-4" data-aos="fade-right">
                             <h2 className='section pb-4'>What We Offer</h2>
                             <p className="section-content">We help you attract and engage prospects by creating valuable content that speaks directly to their pain points. Our content marketing services include developing blog posts, whitepapers, case studies, and other resources that position your business as an industry authority and drive organic traffic.</p>
-                            <a className='btn section-button rounded-pill fw-semibold mb-4' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <img src={contentMarketing} alt="Content Marketing" className='service-img' />
@@ -111,7 +111,7 @@ const ContentMarketing = () => {
                         <h2 className="section-heading">Ready to Elevate Your Content Strategy?</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>

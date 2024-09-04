@@ -49,7 +49,7 @@ const Home = () => {
                         <div className="col-md-6 our-service-box pe-4" data-aos="fade-right">
                             <h2 className='section pb-4'>What We Offer</h2>
                             <p className="section-content">Our Lead Generation Strategy Development service is the foundation for a successful lead generation campaign. We craft customized strategies that align with your business goals, target the right audience, and utilize the most effective channels for lead acquisition. From initial consultation to ongoing optimization, we provide a roadmap for your business growth.</p>
-                            <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <img src={leadGeneration} alt="Lead Generation Strategy Development" className='service-img' />
@@ -107,7 +107,7 @@ const Home = () => {
                         <h2 className="section-heading">Ready to Transform Your Lead Generation?</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold pb-4' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>

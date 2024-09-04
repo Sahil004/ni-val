@@ -53,7 +53,7 @@ const EmailMarketing = () => {
                             <p className="section-content">
                                 Our email marketing services are designed to nurture leads through targeted, engaging campaigns. Whether you need to generate new leads or move existing prospects through the sales funnel, our email campaigns are optimized for high open rates, click-through rates, and conversions.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold pb-4' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const EmailMarketing = () => {
                         <h2 className="section-heading">Boost Your Business with Targeted Email Marketing!</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>

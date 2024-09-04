@@ -48,15 +48,15 @@ const PPCAdvertising = () => {
             <section className="service-overview pt-5">
                 <div className="container">
                     <div className="row align-items-center mb-5 our-service-row" id='ppc-advertising' data-aos="fade-up">
-                        <div className="col-md-6" data-aos="fade-right">
-                            <img src={payPerClick} alt="Pay-Per-Click Advertising" className='service-img' />
-                        </div>
                         <div className="col-md-6 our-service-box ps-4" data-aos="fade-left">
                             <h2 className='section pb-4'>What We Offer</h2>
                             <p className="section-content">
                                 Our PPC advertising service helps you drive targeted traffic to your website through paid search and display ads on platforms like Google Ads and LinkedIn. We optimize every aspect of your campaigns, from keyword selection to ad copy, to ensure maximum conversions with minimal ad spend.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-right">
+                            <img src={payPerClick} alt="Pay-Per-Click Advertising" className='service-img' />
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@ const PPCAdvertising = () => {
                         <h2 className="section-heading">Ready to Drive More Traffic with PPC?</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>

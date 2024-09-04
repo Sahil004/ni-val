@@ -53,7 +53,7 @@ const SocialMediaLeads = () => {
                             <p className="section-content">
                                 Leverage the power of social media platforms like LinkedIn, Facebook, and Twitter to find and engage with potential leads. Our social media lead generation service includes creating targeted campaigns that capture the attention of decision-makers and influencers in your industry.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <img src={socialMediaLeadGeneration} alt="Social Media Lead Generation" className='service-img' />
@@ -116,7 +116,7 @@ const SocialMediaLeads = () => {
                         <h2 className="section-heading">Ready to Boost Your Social Media Lead Generation?</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>

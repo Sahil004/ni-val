@@ -53,7 +53,7 @@ const SeoOptimizationPage = () => {
                             <p className="section-content">
                                 Our SEO Optimization service aims to boost your website’s visibility and drive organic traffic. We conduct comprehensive keyword research, optimize on-page elements, and build high-quality backlinks to enhance your search engine rankings.
                             </p>
-                            <a className='btn section-button rounded-pill fw-semibold mb-4' href='/contact'>Get Started</a>
+                            <a className='text-center section-button' href='/contact'><span>Get Started</span></a>
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <img src={seoOptimization} alt="SEO Optimization" className='service-img' />
@@ -116,7 +116,7 @@ const SeoOptimizationPage = () => {
                         <h2 className="section-heading">Ready to Improve Your SEO?</h2>
                     </div>
                     <div className="col-lg-4">
-                        <a className='btn section-button rounded-pill fw-semibold' href='/contact'>Contact Us Today</a>
+                        <a className='text-center section-button' href='/contact'><span>Contact Us</span></a>
                     </div>
                 </div>
             </section>
