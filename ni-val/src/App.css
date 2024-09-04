@@ -292,7 +292,7 @@ header li .nav-link {
     padding-top: 6em;
     padding-bottom: 6em;
     background:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 254, 254, 0.7)),
         url('./images/home03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ header li .nav-link {
 }
 
 .counter {
-    color: #ffffff;
+    color: var(--primary-color);
 }
 
 .counter-number {
