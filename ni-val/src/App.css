@@ -188,7 +188,7 @@ header li .nav-link {
 .section-button {
     width: 130px;
     height: 40px;
-    color: #fff!important;
+    color: #fff !important;
     border-radius: 5px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
@@ -285,6 +285,81 @@ header li .nav-link {
 .section-button span:hover:after {
     width: 100%;
 }
+
+.leadership {
+    background-color: #F9FAFF;
+}
+
+.leader-img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border: 10px solid #F9FAFF;
+    position: relative;
+    z-index: 1;
+}
+
+/* .staff-img1 {
+    background-image: url(../images/background/staff-1.jpg);
+}
+
+.staff-img2 {
+    background-image: url(../images/background/staff-2.jpg);
+}
+
+.staff-img3 {
+    background-image: url(../images/background/staff-3.jpg);
+}
+
+.staff-img4 {
+    background-image: url(../images/background/staff-4.jpg);
+} */
+
+.leader-content {
+    margin-top: -100px;
+    padding-top: 110px;
+    background-color: var(--stdWhite);
+}
+
+.leader-content p {
+    font-size: 0.87rem;
+    color: var(--blue);
+}
+
+.leader-content ul li {
+    background-color: var(--blue);
+    height: 35px;
+    width: 35px;
+    padding-top: 0.4rem;
+}
+
+.leader-content .p2 {
+    color: #8c8c8c !important;
+    font-size: 1rem;
+}
+
+.leader-content:hover {
+    background-color: var(--blue);
+    transition: all 0.7s ease;
+}
+
+.leader-content:hover h1 {
+    color: var(--stdWhite);
+}
+
+.leader-content:hover p {
+    color: var(--stdWhite);
+    opacity: 0.8;
+}
+
+.leader-content:hover li {
+    background-color: #84ABFB;
+}
+
+.leader-content:hover .p2 {
+    color: var(--stdWhite) !important;
+}
+
 
 /* Counters */
 
@@ -721,9 +796,12 @@ iframe {
     /* Slightly darker background on hover */
 }
 
-.privacy-policy h1, h2, h3 {
+.privacy-policy h1,
+h2,
+h3 {
     color: var(--primary-color);
 }
+
 @media (max-width: 768px) {
     .value-box {
         margin-bottom: 1.5rem;
