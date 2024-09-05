@@ -287,77 +287,71 @@ header li .nav-link {
 }
 
 .leadership {
-    background-color: #F9FAFF;
+    background-color: var(--background-color);
 }
 
 .leader-img {
     width: 200px;
     height: 200px;
     background-size: cover;
-    border: 10px solid #F9FAFF;
+    border: 10px solid var(--background-color);
     position: relative;
     z-index: 1;
 }
 
-/* .staff-img1 {
-    background-image: url(../images/background/staff-1.jpg);
+.staff-img1 {
+    background-image: url(./images/person_4.jpg);
 }
 
 .staff-img2 {
-    background-image: url(../images/background/staff-2.jpg);
+    background-image: url(./images/person_4.jpg);
 }
 
 .staff-img3 {
-    background-image: url(../images/background/staff-3.jpg);
+    background-image: url(./images/person_4.jpg);
 }
 
 .staff-img4 {
-    background-image: url(../images/background/staff-4.jpg);
-} */
+    background-image: url(./images/person_4.jpg);
+}
+
+.staff-img5 {
+    background-image: url(./images/person_4.jpg);
+}
 
 .leader-content {
     margin-top: -100px;
     padding-top: 110px;
-    background-color: var(--stdWhite);
+    background-color: #ffffff;
 }
 
 .leader-content p {
     font-size: 0.87rem;
-    color: var(--blue);
-}
-
-.leader-content ul li {
-    background-color: var(--blue);
-    height: 35px;
-    width: 35px;
-    padding-top: 0.4rem;
+    color: var(--primary-color);
 }
 
 .leader-content .p2 {
-    color: #8c8c8c !important;
+    color: var(--text-color) !important;
     font-size: 1rem;
 }
 
 .leader-content:hover {
-    background-color: var(--blue);
+    background-color: var(--primary-color);
     transition: all 0.7s ease;
 }
 
 .leader-content:hover h1 {
-    color: var(--stdWhite);
+    color: #ffffff;
 }
 
 .leader-content:hover p {
-    color: var(--stdWhite);
+    color: #ffffff;
     opacity: 0.8;
 }
 
-.leader-content:hover li {
-    background-color: #84ABFB;
-}
 
 .leader-content:hover .p2 {
-    color: var(--stdWhite) !important;
+    color: #ffffff !important;
 }
 
 

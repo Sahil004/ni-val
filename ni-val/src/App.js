@@ -20,6 +20,7 @@ import SocialMediaLeads from './components/Service/SocialMediaLeadGen';
 import PPCAdvertising from './components/Service/PPCAdvertising';
 import { Helmet } from 'react-helmet';
 import PrivacyPolicy from './components/PrivacyPolicy';
+import Team from './components/About/Team';
 
 // Custom hook to handle route changes
 const RouteChangeHandler = () => {
@@ -86,7 +87,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/our-team" element={<Team />} />
         <Route path="/contact" element={<Contactus />} />
         <Route path="/lead-generation" element={<LeadGen />} />
         <Route path="/email-marketing" element={<EmailMarketing />} />

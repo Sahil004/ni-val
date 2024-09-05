@@ -58,7 +58,7 @@ const Header = () => {
                                 <Link className="nav-link dropdown-toggle" to="/service" role="button" data-bs-toggle="dropdown">
                                     Services
                                 </Link>
-                                <ul className="dropdown-menu border-0 fs-6">
+                                <ul className="dropdown-menu border-0 fs-6 mt-4">
                                     <li><Link className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
                                     <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
                                     <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
@@ -67,8 +67,17 @@ const Header = () => {
                                     <li><Link className="dropdown-item py-2 fw-light" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
                                 </ul>
                             </li>
+                            <li className="nav-item dropdown">
+                                <Link className="nav-link dropdown-toggle" to="/about-us" role="button" data-bs-toggle="dropdown">
+                                    About
+                                </Link>
+                                <ul className="dropdown-menu border-0 fs-6 mt-4">
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/about-us">About Us</Link></li>
+                                    <li><Link className="dropdown-item py-2 fw-light" to="/our-team">Our Team</Link></li>
+                                </ul>
+                            </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link" to="/privacy-policy">Privacy Policy</Link>
                             </li>
                             {/* Add extra space before Contact link */}
                             <li className="nav-item ms-lg-5">
