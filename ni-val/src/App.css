@@ -721,7 +721,9 @@ iframe {
     /* Slightly darker background on hover */
 }
 
-
+.privacy-policy h1, h2, h3 {
+    color: var(--primary-color);
+}
 @media (max-width: 768px) {
     .value-box {
         margin-bottom: 1.5rem;

@@ -67,15 +67,16 @@ const Footer = () => {
                         <h4 className="text-white">Contact</h4>
                         <div className="d-flex flex-column my-3">
                             <div className="d-flex pb-1 text-white opacity-75">
-                                <i className="fa-solid fa-location-dot pe-3 pt-1"></i>S. No 13 Kharadi, Near Zensar, Thite Nagar, Kharadi, Pune, Maharashtra 411014
+                                <i className="fa-solid fa-location-dot pe-3 pt-1"></i>S. No 13 Kharadi, Near Zensar, Kharadi,
+                                Pune, Maharashtra 411014
                             </div>
                             <div className="d-flex pb-1 text-white opacity-75">
                                 <i className="fa-solid fa-phone pe-3 pt-1"></i>
-                                <a href="tel:+919876543210" className='text-white'>+91 9876543210</a>
+                                <a href="tel:+1 4696511980" className='text-white'>+1 4696511980</a>
                             </div>
                             <div className="d-flex pb-1 text-white opacity-75">
                                 <i className="fa-solid fa-envelope pe-3 pt-1"></i>
-                                <a href="mailto:xyz@gmail.com" className='text-white'>xyz@gmail.com</a>
+                                <a href="mailto: info@ni-val.com" className='text-white'> info@ni-val.com</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +86,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-12 footer-bottom text-center">
                         <div className="copyright text-white">
-                            © Copyright <strong><span>Ni-val Technologies</span></strong>. All Rights Reserved
+                            Copyright © 2024 <strong><span>Ni-val Technologies</span></strong>. All Rights Reserved | <a href="/privacy-policy" className='text-white'><u>Privacy Policy</u></a>
                         </div>
                     </div>
                 </div>

@@ -19,6 +19,7 @@ import SeoOptimizationPage from './components/Service/SeoOptimization';
 import SocialMediaLeads from './components/Service/SocialMediaLeadGen';
 import PPCAdvertising from './components/Service/PPCAdvertising';
 import { Helmet } from 'react-helmet';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 // Custom hook to handle route changes
 const RouteChangeHandler = () => {
@@ -93,6 +94,7 @@ function App() {
         <Route path="/seo-optimization" element={<SeoOptimizationPage />} />
         <Route path="/social-media-leads" element={<SocialMediaLeads />} />
         <Route path="/ppc-advertising" element={<PPCAdvertising />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
       <Top />

@@ -38,13 +38,13 @@ const Contact = () => {
             body: form,
             mode: 'no-cors', // prevent CORS issues
         })
-        .then(() => {
-            setStatus('success');
-            setFormData({ name: '', email: '', subject: '', message: '' });
-        })
-        .catch(() => {
-            setStatus('error');
-        });
+            .then(() => {
+                setStatus('success');
+                setFormData({ name: '', email: '', subject: '', message: '' });
+            })
+            .catch(() => {
+                setStatus('error');
+            });
     };
 
     return (
@@ -131,20 +131,20 @@ const Contact = () => {
                             <div>
                                 <h3 className='sub-contact'>Address</h3>
                                 <p className='text-black opacity-75 sub-contact-para mb-3'>
-                                    S. No 13 Kharadi, Near Zensar, Thite Nagar, Kharadi,<br />
+                                    S. No 13 Kharadi, Near Zensar, Kharadi,
                                     Pune, Maharashtra 411014
                                 </p>
                             </div>
                             <div>
                                 <h3 className='sub-contact'>Email</h3>
                                 <p className='text-black opacity-75 sub-contact-para mb-3'>
-                                    <a href="mailto:xyz@gmail.com">xyz@gmail.com</a>
+                                    <a href="mailto:info@ni-val.com">info@ni-val.com</a>
                                 </p>
                             </div>
                             <div>
                                 <h3 className='sub-contact'>Call</h3>
                                 <p className='text-black opacity-75 sub-contact-para mb-3'>
-                                    <a href="tel:+91 9876543210">+91 9876543210</a>
+                                    <a href="tel:+1 4696511980">+1 4696511980</a>
                                 </p>
                             </div>
                             <iframe
