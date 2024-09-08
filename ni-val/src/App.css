@@ -91,6 +91,10 @@ header li .nav-link {
     font-weight: bold;
 }
 
+header li .nav-link:hover {
+    color: #ef2168 !important;
+    transition: all 0.3s ease-out;
+}
 .offcanvas {
     width: 250px !important;
 }
