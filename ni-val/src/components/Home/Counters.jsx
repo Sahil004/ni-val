@@ -56,7 +56,7 @@ const Counters = () => {
       <div className="container">
         <div className="row text-center">
           <div
-            className="col-md-6 col-lg-3 pb-5"
+            className="col-md-6 col-lg-3 pb-5 pb-md-0"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
@@ -66,7 +66,7 @@ const Counters = () => {
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-3 pb-5"
+            className="col-md-6 col-lg-3 pb-5 pb-md-0"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="200"
@@ -77,7 +77,7 @@ const Counters = () => {
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-3 pb-5"
+            className="col-md-6 col-lg-3 pb-5 pb-md-0"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="400"
@@ -88,7 +88,7 @@ const Counters = () => {
             </div>
           </div>
           <div
-            className="col-md-6 col-lg-3 pb-5"
+            className="col-md-6 col-lg-3 pb-5 pb-md-0"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="600"

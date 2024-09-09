@@ -30,16 +30,25 @@ const Header = () => {
                                         Services
                                     </Link>
                                     <ul className="dropdown-menu border-0 fs-6">
-                                        <li><Link className="d-block dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/social-media-leads">Social Media Lead Generation</Link></li>
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/seo-optimization">SEO Optimization</Link></li>
-                                        <li><Link className="dropdown-item py-2 fw-light" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                                        <li><Link className="dropdown-item py-2" to="/email-marketing">Email Marketing Campaigns</Link></li>
+                                        <li><Link className="dropdown-item py-2" to="/content-marketing">Content Marketing</Link></li>
+                                        <li><Link className="dropdown-item py-2" to="/social-media-leads">Social Media Lead Generation</Link></li>
+                                        <li><Link className="dropdown-item py-2" to="/seo-optimization">SEO Optimization</Link></li>
+                                        <li><Link className="dropdown-item py-2" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
                                     </ul>
+                                    
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/about">About</Link>
+                                <li className="nav-item dropdown">
+                                    <Link className='nav-link dropdown-toggle' to="/about-us" role="button" data-bs-toggle="dropdown">
+                                        About
+                                    </Link>
+                                    <ul className="dropdown-menu border-0 fs-6">
+                                        <li>
+                                            <Link className="d-block dropdown-item py-2" to="/about-us">About Us</Link>
+                                            <Link className="d-block dropdown-item py-2" to="/our-team">Our Team</Link>
+                                        </li>
+                                    </ul>
                                 </li>
                                 <li className="nav-item mt-5 mt-lg-0">
                                     <Link className='text-center section-button' to="/contact"><span>Contact US</span></Link>
@@ -59,12 +68,12 @@ const Header = () => {
                                     Services
                                 </Link>
                                 <ul className="dropdown-menu border-0 fs-6 mt-4">
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/lead-generation">Lead Generation Strategy Development</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/email-marketing">Email Marketing Campaigns</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/content-marketing">Content Marketing</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/social-media-leads">Social Media Lead Generation</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/seo-optimization">SEO Optimization</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/lead-generation">Lead Generation Strategy Development</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/email-marketing">Email Marketing Campaigns</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/content-marketing">Content Marketing</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/social-media-leads">Social Media Lead Generation</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/seo-optimization">SEO Optimization</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/ppc-advertising">Pay-Per-Click (PPC) Advertising</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
@@ -72,8 +81,8 @@ const Header = () => {
                                     About
                                 </Link>
                                 <ul className="dropdown-menu border-0 fs-6 mt-4">
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/about-us">About Us</Link></li>
-                                    <li><Link className="dropdown-item py-2 fw-light" to="/our-team">Our Team</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/about-us">About Us</Link></li>
+                                    <li><Link className="dropdown-item py-2" to="/our-team">Our Team</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

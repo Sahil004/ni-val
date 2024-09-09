@@ -138,9 +138,10 @@ header li .nav-link:hover {
 }
 
 .service-button {
-  background-color: #ffffff !important;
-  color: var(--primary-color);
-  border: none;
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+
   padding: 12px 45px !important;
   font-size: 16px;
   cursor: pointer;
@@ -148,9 +149,9 @@ header li .nav-link:hover {
 }
 
 .service-button:hover {
-  border: 1px solid #ffffff !important;
-  background-color: transparent !important;
-  color: #ffffff !important;
+  border: none;
+  background-color: #ffffff !important;
+  color: var(--primary-color) !important;
 }
 
 .social-icons li a:hover {
@@ -161,6 +162,12 @@ header li .nav-link:hover {
 
 /* About us */
 
+.about-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/home02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 .about-us {
   padding-top: 6em;
   padding-bottom: 6em;
