@@ -58,7 +58,7 @@ const Contact = () => {
                 <div className='row'>
                     <div className="col-md-10 mx-auto col-lg-7 mb-4">
                         <div className='p-3 p-lg-5 contact-form h-100' data-aos="fade-right" data-aos-duration="1000">
-                            <h4 className='text-uppercase section-subheading mb-5 fw-bold'>Send us a message</h4>
+                            <span className='text-uppercase section-subheading mb-5 fw-bold'>Send us a message</span>
                             <form id="form1" onSubmit={handleSubmit}>
                                 <div>
                                     <input
