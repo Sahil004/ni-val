@@ -8,21 +8,15 @@ const Header = () => {
                 <div className="container d-flex justify-content-between align-items-center">
                     {/* Brand */}
                     <Link className="navbar-brand" to="/">
-                        <img
-                            src="/images/ni-val-brand.webp"
-                            srcSet="/images/ni-val-brand-small.webp 480w, /images/ni-val-brand-medium.webp 768w, /images/ni-val-brand-large.webp 1200w"
-                            sizes="(max-width: 600px) 480px, (max-width: 1200px) 768px, 1200px"
-                            alt="Ni-val Logo"
-                            loading="lazy"
-                        />
+                        <img src="/images/ni-val-brand.webp" alt="Ni-val Logo" loading='lazy'/>
                     </Link>
 
                     {/* Offcanvas Toggler */}
-                    <button
-                        className="navbar-toggler d-lg-none"
-                        type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar"
+                    <button 
+                        className="navbar-toggler d-lg-none" 
+                        type="button" 
+                        data-bs-toggle="offcanvas" 
+                        data-bs-target="#offcanvasNavbar" 
                         aria-controls="offcanvasNavbar"
                         aria-label="Toggle navigation"
                     >
@@ -30,17 +24,17 @@ const Header = () => {
                     </button>
 
                     {/* Offcanvas Menu */}
-                    <div
-                        className="offcanvas offcanvas-end d-lg-none"
-                        id="offcanvasNavbar"
+                    <div 
+                        className="offcanvas offcanvas-end d-lg-none" 
+                        id="offcanvasNavbar" 
                         aria-labelledby="offcanvasNavbarLabel"
                     >
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                            <button
-                                type="button"
-                                className="btn-close"
-                                data-bs-dismiss="offcanvas"
+                            <button 
+                                type="button" 
+                                className="btn-close" 
+                                data-bs-dismiss="offcanvas" 
                                 aria-label="Close"
                             ></button>
                         </div>
@@ -50,10 +44,10 @@ const Header = () => {
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link
-                                        className="nav-link dropdown-toggle"
-                                        to="/service"
-                                        role="button"
+                                    <Link 
+                                        className="nav-link dropdown-toggle" 
+                                        to="/service" 
+                                        role="button" 
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
@@ -69,10 +63,10 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link
-                                        className="nav-link dropdown-toggle"
-                                        to="/about-us"
-                                        role="button"
+                                    <Link 
+                                        className="nav-link dropdown-toggle" 
+                                        to="/about-us" 
+                                        role="button" 
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
@@ -97,10 +91,10 @@ const Header = () => {
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link
-                                    className="nav-link dropdown-toggle"
-                                    to="/service"
-                                    role="button"
+                                <Link 
+                                    className="nav-link dropdown-toggle" 
+                                    to="/service" 
+                                    role="button" 
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
@@ -116,10 +110,10 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link
-                                    className="nav-link dropdown-toggle"
-                                    to="/about-us"
-                                    role="button"
+                                <Link 
+                                    className="nav-link dropdown-toggle" 
+                                    to="/about-us" 
+                                    role="button" 
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
