@@ -40,8 +40,8 @@ const Footer = () => {
 
                     {/* Footer Links */}
                     <div className="col-md-6 col-lg-3 footer-nav mb-4">
-                        <h4 className="text-white">Links</h4>
-                        <ul className="list-unstyled">
+                        
+                        <ul className="list-unstyled fs-3 pb-3 text-white">Links
                             <li><Link className="text-white" to="/">Home</Link></li>
                             <li><Link className="text-white" to="/service">Services</Link></li>
                             <li><Link className="text-white" to="/about-us">About</Link></li>
@@ -52,8 +52,7 @@ const Footer = () => {
 
                     {/* Footer Services */}
                     <div className="col-md-6 col-lg-3 footer-services mb-4">
-                        <h4 className="text-white">Services</h4>
-                        <ul className="list-unstyled">
+                        <ul className="list-unstyled fs-3 pb-3 text-white">Services
                             <li><Link className="text-white" to="/lead-generation">Lead Generation Strategy Development</Link></li>
                             <li><Link className="text-white" to="/email-marketing">Email Marketing Campaigns</Link></li>
                             <li><Link className="text-white" to="/content-marketing">Content Marketing</Link></li>
@@ -65,8 +64,8 @@ const Footer = () => {
 
                     {/* Footer Contact */}
                     <div className="col-md-6 col-lg-3 footer-contact mb-4">
-                        <h4 className="text-white">Contact</h4>
-                        <div className="d-flex flex-column my-3">
+                        <p className="list-unstyled fs-3 text-white mb-0">Contact</p>
+                        <div className="d-flex flex-column">
                             <div className="d-flex pb-1 text-white opacity-75">
                                 <i className="fa-solid fa-location-dot pe-3 pt-1"></i>S. No 13 Kharadi, Near Zensar, Kharadi,
                                 Pune, Maharashtra 411014
