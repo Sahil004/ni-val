@@ -4,6 +4,21 @@ import contentMarketing from '../../images/content-marketing.webp';
 const ContentMarketing = () => {
     return (
         <main className='service-page'>
+            {/* Inline Critical CSS */}
+            <style>
+                {`
+                    .content-marketing {
+                        background: linear-gradient(
+                            rgba(0, 0, 0, 0.7),
+                            rgba(0, 0, 0, 0.7)
+                        ),
+                        url('./images/content-marketing-lg.webp') no-repeat center center;
+                        background-size: cover;
+                        min-height: 100vh; /* Ensure proper height for initial load */
+                    }
+                `}
+            </style>
+
             {/* Hero Section */}
             <section className="hero content-marketing">
                 <div className="container">
@@ -71,8 +86,7 @@ const ContentMarketing = () => {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">How It Works</h2>
-                                    <p className="service-description">We begin by understanding your target audience and industry. Our team develops content strategies that focus on delivering high-quality, relevant content to engage potential leads and build brand authority.
-                                    </p>
+                                    <p className="service-description">We begin by understanding your target audience and industry. Our team develops content strategies that focus on delivering high-quality, relevant content to engage potential leads and build brand authority.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,8 +97,7 @@ const ContentMarketing = () => {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">Our Approach</h2>
-                                    <p className="service-description">Using data-driven insights, we craft content that not only resonates with your audience but also improves SEO performance. We regularly update content to keep it relevant and impactful.
-                                    </p>
+                                    <p className="service-description">Using data-driven insights, we craft content that not only resonates with your audience but also improves SEO performance. We regularly update content to keep it relevant and impactful.</p>
                                 </div>
                             </div>
                         </div>
@@ -95,8 +108,7 @@ const ContentMarketing = () => {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="service-head">What You Can Expect</h2>
-                                    <p className="service-description">You can expect to see increased organic traffic, enhanced brand credibility, and meaningful engagement with prospects. Our approach positions your brand as a thought leader in your industry.
-                                    </p>
+                                    <p className="service-description">You can expect to see increased organic traffic, enhanced brand credibility, and meaningful engagement with prospects. Our approach positions your brand as a thought leader in your industry.</p>
                                 </div>
                             </div>
                         </div>

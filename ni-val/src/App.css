@@ -626,18 +626,6 @@ iframe {
   background-position: 50%;
 }
 
-.content-marketing {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
-    ),
-    url(./images/content-marketing-lg.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-}
-
 .seo-optimization {
   background: linear-gradient(
       rgba(0, 0, 0, 0.7),
