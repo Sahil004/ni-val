@@ -95,6 +95,7 @@ const AboutUs = () => {
                 src={missionImage}
                 alt="Our Mission"
                 className="img-fluid about-img"
+                loading="lazy"
               />
             </div>
           </div>
@@ -107,6 +108,7 @@ const AboutUs = () => {
                   src={serviceImage}
                   alt="What We Do"
                   className="img-fluid about-img"
+                  loading="lazy"
                 />
               </div>
               <div
@@ -254,6 +256,7 @@ const AboutUs = () => {
                 src={approachImage}
                 alt="Our Approach"
                 className="img-fluid about-img"
+                loading="lazy"
               />
             </div>
           </div>
@@ -373,6 +376,7 @@ const AboutUs = () => {
                       src={integrityImage}
                       alt="Integrity"
                       className="img-fluid h-100"
+                      loading="lazy"
                     />
                     <div className="value-overlay">
                       <h3 className="value-heading">Integrity</h3>
@@ -388,6 +392,7 @@ const AboutUs = () => {
                       src={innovationImage}
                       alt="Innovation"
                       className="img-fluid h-100"
+                      loading="lazy"
                     />
                     <div className="value-overlay">
                       <h3 className="value-heading">Innovation</h3>
@@ -405,6 +410,7 @@ const AboutUs = () => {
                       src={excellenceImage}
                       alt="Excellence"
                       className="img-fluid h-100"
+                      loading="lazy"
                     />
                     <div className="value-overlay">
                       <h3 className="value-heading">Excellence</h3>
