@@ -16,9 +16,9 @@ const Hero = () => {
         Your browser does not support the video tag.
       </video>
       <div className="container">
-        <div className="row align-items-center hero-page">
+        <div className="row align-items-center hero-page text-center text-md-start">
           <div
-            className="col-md-6"
+            className="col-md-8 col-lg-6"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="300"
@@ -40,9 +40,9 @@ const Hero = () => {
               Harness the power of automation and analytics to build stronger
               relationships and increase sales.
             </p>
-            <div className="d-flex justify-content-center justify-content-md-start">
+            <div className="d-md-flex justify-content-center justify-content-md-start">
               <a
-                className="btn service-button rounded-pill fw-semibold me-0 me-md-4"
+                className="btn service-button rounded-pill fw-semibold me-0 me-md-4 mb-3 mb-md-0"
                 href="/contact"
                 data-aos="fade-up"
                 data-aos-duration="1500"

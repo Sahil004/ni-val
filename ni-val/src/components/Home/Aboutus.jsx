@@ -16,14 +16,14 @@ const Aboutus = () => {
           </div>
 
           <div className="col-md-6">
-            <h4
+            <span
               className="section-subheading"
               data-aos="zoom-in"
               data-aos-duration="1000"
               data-aos-delay="500"
             >
               About us
-            </h4>
+            </span>
             <h2
               className="section-heading"
               data-aos="fade-left"

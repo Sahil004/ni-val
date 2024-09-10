@@ -5,14 +5,14 @@ const Team = () => {
         <section className="leadership full-width py-5">
             <div className="container col-lg-7">
                 <div className="row text-center mb-5">
-                    <h4
+                    <span
                         className='section-subheading'
                         data-aos="zoom-in"
                         data-aos-duration="1000"
                         data-aos-delay="500"
                     >
                         Our Leadership Team
-                    </h4>
+                    </span>
                     <h2
                         className='section-heading'
                         data-aos="fade-left"

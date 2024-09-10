@@ -9,7 +9,7 @@ const Footer = () => {
                     {/* Footer Logo and Social Icons */}
                     <div className="col-md-6 col-lg-3 mb-4">
                         <div className="footer-logo mb-3 pb-2">
-                            <a href="/"><img src="/images/ni-val-brand.png" alt="Logo" /></a>
+                            <a href="/"><img src="/images/ni-val-brand.webp" alt="Logo" /></a>
                         </div>
                         <p className='footer-text'>
                             Empowering Business Growth Through Precision and Innovation.

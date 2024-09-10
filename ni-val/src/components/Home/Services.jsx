@@ -6,7 +6,7 @@ const Services = () => {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-4 mb-4">
-                        <h4 className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Our Services</h4>
+                        <span className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Our Services</span>
                         <h2 className='section-heading' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Tailored Solutions for Accelerating Business Growth</h2>
                         <p className='section-content' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             We specialize in driving B2B growth through customized lead generation strategies. Our services are designed to enhance your sales pipeline, nurture prospects, and provide in-depth market insights.

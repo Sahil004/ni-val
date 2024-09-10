@@ -50,7 +50,7 @@ const Contact = () => {
     return (
         <section id="contact" className="contact section-padding">
             <div className='container contact-main'>
-                <h4 className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Contact Us</h4>
+                <span className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Contact Us</span>
                 <h2 className='section-heading' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     Get in touch, send us an e-mail or call us
                 </h2>
