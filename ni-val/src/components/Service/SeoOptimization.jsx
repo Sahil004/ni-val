@@ -1,5 +1,5 @@
 import React from 'react';
-import seoOptimization from '../../images/seo.jpg'; // Adjust the path as necessary
+import seoOptimization from '../../images/seo.webp'; // Adjust the path as necessary
 
 const SeoOptimizationPage = () => {
     return (

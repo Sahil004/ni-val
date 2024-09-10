@@ -1,5 +1,5 @@
 import React from 'react';
-import socialMediaLeadGeneration from '../../images/social-media-lead-generation.jpg'; // Adjust the path as necessary
+import socialMediaLeadGeneration from '../../images/social-media-lead-generation.webp'; // Adjust the path as necessary
 
 const SocialMediaLeads = () => {
     return (

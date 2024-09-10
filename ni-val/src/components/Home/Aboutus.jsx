@@ -1,5 +1,5 @@
 import React from "react";
-import aboutus from "../../images/home01.png";
+import aboutus from "../../images/home01.webp";
 
 const Aboutus = () => {
   return (

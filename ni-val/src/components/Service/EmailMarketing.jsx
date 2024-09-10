@@ -1,5 +1,5 @@
 import React from 'react';
-import emailMarketing from '../../images/email-marketing-lg.jpg';
+import emailMarketing from '../../images/email-marketing-lg.webp';
 
 const EmailMarketing = () => {
     return (

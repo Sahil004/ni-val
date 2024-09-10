@@ -7,7 +7,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container d-flex justify-content-between align-items-center">
                     {/* Brand */}
-                    <Link className="navbar-brand" to="/"><img src="/images/ni-val-brand.png" alt="Logo" /></Link>
+                    <Link className="navbar-brand" to="/"><img src="/images/ni-val-brand.webp" alt="Logo" /></Link>
 
                     {/* Offcanvas Toggler */}
                     <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

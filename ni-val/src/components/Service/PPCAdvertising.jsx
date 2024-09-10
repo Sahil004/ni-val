@@ -1,5 +1,5 @@
 import React from 'react';
-import payPerClick from '../../images/pay-per-click.jpg'; // Adjust the path as necessary
+import payPerClick from '../../images/pay-per-click.webp'; // Adjust the path as necessary
 
 const PPCAdvertising = () => {
     return (

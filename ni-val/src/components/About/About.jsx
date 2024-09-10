@@ -1,11 +1,11 @@
 import React from "react";
 import Counters from "../Home/Counters";
-import missionImage from "../../images/our-mission.jpg";
-import serviceImage from "../../images/what-we-do.jpg";
-import approachImage from "../../images/approach.jpg";
-import integrityImage from "../../images/integrity.jpg";
-import innovationImage from "../../images/innovation.jpg";
-import excellenceImage from "../../images/excellence.jpg";
+import missionImage from "../../images/our-mission.webp";
+import serviceImage from "../../images/what-we-do.webp";
+import approachImage from "../../images/approach.webp";
+import integrityImage from "../../images/integrity.webp";
+import innovationImage from "../../images/innovation.webp";
+import excellenceImage from "../../images/excellence.webp";
 import { Helmet } from "react-helmet";
 
 const AboutUs = () => {

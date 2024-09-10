@@ -1,5 +1,5 @@
 import React from 'react';
-import contentMarketing from '../../images/content-marketing.jpg';
+import contentMarketing from '../../images/content-marketing.webp';
 
 const ContentMarketing = () => {
     return (

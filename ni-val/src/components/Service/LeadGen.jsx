@@ -1,5 +1,5 @@
 import React from 'react';
-import leadGeneration from '../../images/lead-generation.jpg';
+import leadGeneration from '../../images/lead-generation.webp';
 
 const Home = () => {
     return (

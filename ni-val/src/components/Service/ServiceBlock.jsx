@@ -1,10 +1,10 @@
 import React from 'react';
-import leadGeneration from '../../images/lead-generation.jpg';
-import emailMarketing from '../../images/email-marketing.jpg';
-import contentMarketing from '../../images/content-marketing.jpg';
-import seoOptimization from '../../images/seo.jpg';
-import socialMediaLeadGeneration from '../../images/social-media-lead-generation.jpg';
-import payPerClick from '../../images/pay-per-click.jpg';
+import leadGeneration from '../../images/lead-generation.webp';
+import emailMarketing from '../../images/email-marketing.webp';
+import contentMarketing from '../../images/content-marketing.webp';
+import seoOptimization from '../../images/seo.webp';
+import socialMediaLeadGeneration from '../../images/social-media-lead-generation.webp';
+import payPerClick from '../../images/pay-per-click.webp';
 
 const ServiceBlock = () => {
     return (

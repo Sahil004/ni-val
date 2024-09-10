@@ -163,7 +163,7 @@ header li .nav-link:hover {
 /* About us */
 
 .about-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/home02.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/home02.webp);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -306,23 +306,23 @@ header li .nav-link:hover {
 }
 
 .staff-img1 {
-  background-image: url(./images/person_4.jpg);
+  background-image: url(./images/person_4.webp);
 }
 
 .staff-img2 {
-  background-image: url(./images/person_4.jpg);
+  background-image: url(./images/person_4.webp);
 }
 
 .staff-img3 {
-  background-image: url(./images/person_4.jpg);
+  background-image: url(./images/person_4.webp);
 }
 
 .staff-img4 {
-  background-image: url(./images/person_4.jpg);
+  background-image: url(./images/person_4.webp);
 }
 
 .staff-img5 {
-  background-image: url(./images/person_4.jpg);
+  background-image: url(./images/person_4.webp);
 }
 
 .leader-content {
@@ -368,7 +368,7 @@ header li .nav-link:hover {
       rgba(255, 255, 255, 0.7),
       rgba(255, 254, 254, 0.7)
     ),
-    url("./images/home03.jpg");
+    url("./images/home03.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -578,7 +578,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.5)
         /* Same color to cover the entire section */
     ),
-    url("./images/service-hero2.jpg");
+    url("./images/service-hero2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 30%;
@@ -609,7 +609,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/lead-generation-lg.jpg);
+    url(./images/lead-generation-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -621,7 +621,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/email-marketing-lg.jpg);
+    url(./images/email-marketing-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -633,7 +633,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/content-marketing-lg.jpg);
+    url(./images/content-marketing-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -645,7 +645,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/seo-lg.jpg);
+    url(./images/seo-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -657,7 +657,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/social-media-lead-generation-lg.jpg);
+    url(./images/social-media-lead-generation-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -669,7 +669,7 @@ iframe {
       /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
         /* Same color to cover the entire section */
     ),
-    url(./images/pay-per-click-lg.jpg);
+    url(./images/pay-per-click-lg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
