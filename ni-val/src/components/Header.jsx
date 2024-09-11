@@ -8,15 +8,15 @@ const Header = () => {
                 <div className="container d-flex justify-content-between align-items-center">
                     {/* Brand */}
                     <Link className="navbar-brand" to="/">
-                        <img src="/images/ni-val-brand.webp" alt="Ni-val Logo" loading='lazy'/>
+                        <img src="/images/ni-val-brand.webp" alt="Ni-val Logo" loading='lazy' />
                     </Link>
 
                     {/* Offcanvas Toggler */}
-                    <button 
-                        className="navbar-toggler d-lg-none" 
-                        type="button" 
-                        data-bs-toggle="offcanvas" 
-                        data-bs-target="#offcanvasNavbar" 
+                    <button
+                        className="navbar-toggler d-lg-none"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
                         aria-controls="offcanvasNavbar"
                         aria-label="Toggle navigation"
                     >
@@ -24,17 +24,17 @@ const Header = () => {
                     </button>
 
                     {/* Offcanvas Menu */}
-                    <div 
-                        className="offcanvas offcanvas-end d-lg-none" 
-                        id="offcanvasNavbar" 
+                    <div
+                        className="offcanvas offcanvas-end d-lg-none"
+                        id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
                     >
                         <div className="offcanvas-header">
                             <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                            <button 
-                                type="button" 
-                                className="btn-close" 
-                                data-bs-dismiss="offcanvas" 
+                            <button
+                                type="button"
+                                className="btn-close"
+                                data-bs-dismiss="offcanvas"
                                 aria-label="Close"
                             ></button>
                         </div>
@@ -44,10 +44,10 @@ const Header = () => {
                                     <Link className="nav-link" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link 
-                                        className="nav-link dropdown-toggle" 
-                                        to="/service" 
-                                        role="button" 
+                                    <Link
+                                        className="nav-link dropdown-toggle"
+                                        to="/service"
+                                        role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
@@ -63,10 +63,10 @@ const Header = () => {
                                     </ul>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <Link 
-                                        className="nav-link dropdown-toggle" 
-                                        to="/about-us" 
-                                        role="button" 
+                                    <Link
+                                        className="nav-link dropdown-toggle"
+                                        to="/about-us"
+                                        role="button"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
@@ -76,6 +76,24 @@ const Header = () => {
                                         <li><Link className="d-block dropdown-item py-2" to="/about-us">About Us</Link></li>
                                         <li><Link className="d-block dropdown-item py-2" to="/our-team">Our Team</Link></li>
                                     </ul>
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <Link
+                                        className="nav-link dropdown-toggle"
+                                        to="/about-us"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                    >
+                                        About
+                                    </Link>
+                                    <ul className="dropdown-menu border-0 fs-6">
+                                        <li><Link className="d-block dropdown-item py-2" to="/Case Study">Case Study</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2" to="/Corporate Deck">Corporate Deck</Link></li>
+                                    </ul>
+                                </li>
+                                <li className="nav-item">
+                                    <Link className="nav-link" to="/privacy-policy">Privacy Policy</Link>
                                 </li>
                                 <li className="nav-item mt-5 mt-lg-0">
                                     <Link className='text-center section-button' to="/contact"><span>Contact Us</span></Link>
@@ -91,10 +109,10 @@ const Header = () => {
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link 
-                                    className="nav-link dropdown-toggle" 
-                                    to="/service" 
-                                    role="button" 
+                                <Link
+                                    className="nav-link dropdown-toggle"
+                                    to="/service"
+                                    role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
@@ -110,10 +128,10 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link 
-                                    className="nav-link dropdown-toggle" 
-                                    to="/about-us" 
-                                    role="button" 
+                                <Link
+                                    className="nav-link dropdown-toggle"
+                                    to="/about-us"
+                                    role="button"
                                     data-bs-toggle="dropdown"
                                     aria-expanded="false"
                                 >
@@ -122,6 +140,21 @@ const Header = () => {
                                 <ul className="dropdown-menu border-0 fs-6 mt-4">
                                     <li><Link className="dropdown-item py-2" to="/about-us">About Us</Link></li>
                                     <li><Link className="dropdown-item py-2" to="/our-team">Our Team</Link></li>
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <Link
+                                    className="nav-link dropdown-toggle"
+                                    to="/about-us"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Resources
+                                </Link>
+                                <ul className="dropdown-menu border-0 fs-6">
+                                    <li><Link className="d-block dropdown-item py-2" to="/case-Study">Case Study</Link></li>
+                                    <li><Link className="d-block dropdown-item py-2" to="/Corporate Deck">Corporate Deck</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

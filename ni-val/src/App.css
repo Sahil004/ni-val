@@ -92,6 +92,7 @@ header li .nav-link:hover {
   color: #ef2168 !important;
   transition: all 0.3s ease-out;
 }
+
 .offcanvas {
   width: 250px !important;
 }
@@ -99,11 +100,11 @@ header li .nav-link:hover {
 /* Hero */
 
 .home-hero {
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.7),
-    /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
       /* Same color to cover the entire section */
-  );
+    );
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -167,6 +168,7 @@ header li .nav-link:hover {
   background-size: cover;
   position: relative;
 }
+
 .about-us {
   padding-top: 6em;
   padding-bottom: 6em;
@@ -206,11 +208,9 @@ header li .nav-link:hover {
   display: inline-block;
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(
-    0deg,
-    --primary-color 0%,
-    rgba(35, 44, 60, 1) 100%
-  );
+  background: linear-gradient(0deg,
+      --primary-color 0%,
+      rgba(35, 44, 60, 1) 100%);
   line-height: 42px;
   padding: 0;
   border: none;
@@ -363,10 +363,8 @@ header li .nav-link:hover {
 .counters {
   padding-top: 6em;
   padding-bottom: 6em;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 254, 254, 0.7)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.7),
+      rgba(255, 254, 254, 0.7)),
     url("./images/home03.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -572,10 +570,10 @@ iframe {
 }
 
 .service-hero {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.5)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.5)
+      /* Same color to cover the entire section */
     ),
     url("./images/service-hero2.webp");
   background-repeat: no-repeat;
@@ -603,10 +601,10 @@ iframe {
 /* Lead Generation */
 
 .lead-generation {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
     ),
     url(./images/lead-generation-lg.webp);
   background-repeat: no-repeat;
@@ -615,10 +613,10 @@ iframe {
 }
 
 .email-marketing {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
     ),
     url(./images/email-marketing-lg.webp);
   background-repeat: no-repeat;
@@ -627,10 +625,10 @@ iframe {
 }
 
 .seo-optimization {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
     ),
     url(./images/seo-lg.webp);
   background-repeat: no-repeat;
@@ -639,10 +637,10 @@ iframe {
 }
 
 .social-media-leads {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
     ),
     url(./images/social-media-lead-generation-lg.webp);
   background-repeat: no-repeat;
@@ -651,10 +649,10 @@ iframe {
 }
 
 .ppc-advertising {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      /* Dark overlay with transparency */ rgba(0, 0, 0, 0.7)
-        /* Same color to cover the entire section */
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
     ),
     url(./images/pay-per-click-lg.webp);
   background-repeat: no-repeat;
@@ -775,14 +773,48 @@ h3 {
   color: var(--primary-color);
 }
 
+/* Case Study */
+
+.case-study-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
+    ), url("./images/case_study_bg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.campaign {
+  background-color: var(--background-color);
+}
+
+.purpose p,  .purpose ul {
+  font-size: 20px;
+}
+
+.strong-text {
+  color: var(--primary-color);
+}
+
+.methodology {
+  padding-top: 15px;
+  font-size: 50px;
+  color: var(--primary-color);
+}
+
 @media (max-width: 768px) {
   .value-box {
     margin-bottom: 1.5rem;
     /* Adjust spacing for smaller screens */
   }
+
+
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .hero-page {
     height: 600px;
     /* Adjust height for small desktops */
