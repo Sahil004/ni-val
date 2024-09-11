@@ -52,7 +52,7 @@ const Hero = () => {
               </a>
               <a
                 className="btn service-button rounded-pill fw-semibold"
-                href="/case_studies/Case_study_Ni-Val.pdf"
+                href="/case_studies/Ni-Val Case Studies.pdf"
                 data-aos="fade-up"
                 data-aos-duration="1500"
                 data-aos-delay="700"

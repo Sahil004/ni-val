@@ -59,7 +59,7 @@ const AboutUs = () => {
               <div className="d-flex justify-content-center justify-content-md-start">
                 <a
                   className="btn service-button rounded-pill fw-semibold"
-                  href="/case_studies/how_it_works.pdf"
+                  href="/case_studies/Ni-Val Corporate Deck.pdf"
                   data-aos="fade-up"
                   data-aos-duration="1500"
                   data-aos-delay="700"
@@ -84,7 +84,7 @@ const AboutUs = () => {
               <p className="section-content">
                 Our mission is to empower businesses with high-quality leads
                 that convert into meaningful partnerships and revenue. In
-                today’s competitive market, finding and nurturing the right
+                today's competitive market, finding and nurturing the right
                 prospects is crucial to success. Our team is dedicated to
                 helping you reach your target audience with precision and
                 efficiency.

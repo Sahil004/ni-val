@@ -85,7 +85,7 @@ const Header = () => {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        About
+                                        Resources
                                     </Link>
                                     <ul className="dropdown-menu border-0 fs-6">
                                         <li><Link className="d-block dropdown-item py-2" to="/Case Study">Case Study</Link></li>
@@ -152,7 +152,7 @@ const Header = () => {
                                 >
                                     Resources
                                 </Link>
-                                <ul className="dropdown-menu border-0 fs-6">
+                                <ul className="dropdown-menu border-0 fs-6 mt-4">
                                     <li><Link className="d-block dropdown-item py-2" to="/case-Study">Case Study</Link></li>
                                     <li><Link className="d-block dropdown-item py-2" to="/Corporate Deck">Corporate Deck</Link></li>
                                 </ul>
