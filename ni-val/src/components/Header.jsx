@@ -88,8 +88,9 @@ const Header = () => {
                                         Resources
                                     </Link>
                                     <ul className="dropdown-menu border-0 fs-6">
-                                        <li><Link className="d-block dropdown-item py-2" to="/Case Study">Case Study</Link></li>
-                                        <li><Link className="d-block dropdown-item py-2" to="/Corporate Deck">Corporate Deck</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2" to="/case-study">Case Study</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2" to="/corporate-deck">Corporate Deck</Link></li>
+                                        <li><Link className="d-block dropdown-item py-2" to="/media-kit">Media Kit</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">
@@ -154,7 +155,8 @@ const Header = () => {
                                 </Link>
                                 <ul className="dropdown-menu border-0 fs-6 mt-4">
                                     <li><Link className="d-block dropdown-item py-2" to="/case-Study">Case Study</Link></li>
-                                    <li><Link className="d-block dropdown-item py-2" to="/Corporate Deck">Corporate Deck</Link></li>
+                                    <li><Link className="d-block dropdown-item py-2" to="/corporate-deck">Corporate Deck</Link></li>
+                                    <li><Link className="d-block dropdown-item py-2" to="/media-kit">Media Kit</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item">

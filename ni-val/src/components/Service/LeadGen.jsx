@@ -57,7 +57,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
             <section className="service-details">
                 <div className="container">
                     <div className="row justify-content-center">

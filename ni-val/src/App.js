@@ -22,6 +22,10 @@ import { Helmet } from 'react-helmet';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import Team from './components/About/Team';
 import CaseStudy from './components/Resources/CaseStudy';
+import CaseStudy1 from './components/Resources/CaseStudy1';
+import CaseStudy2 from './components/Resources/CaseStudy2';
+import CorporateDeck from './components/Resources/CorporateDeck';
+import MediaKit from './components/Resources/MediaKit';
 
 // Custom hook to handle route changes
 const RouteChangeHandler = () => {
@@ -98,6 +102,10 @@ function App() {
         <Route path="/social-media-leads" element={<SocialMediaLeads />} />
         <Route path="/ppc-advertising" element={<PPCAdvertising />} />
         <Route path="/case-study" element={<CaseStudy />} />
+        <Route path="/case-study/dell" element={<CaseStudy1 />} />
+        <Route path="/case-study/ibm" element={<CaseStudy2 />} />
+        <Route path="/corporate-deck" element={<CorporateDeck/>} />
+        <Route path="/media-kit" element={<MediaKit />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />

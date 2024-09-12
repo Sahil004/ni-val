@@ -787,11 +787,16 @@ h3 {
   background-position: center;
 }
 
+.case-study-block {
+  background-color: var(--background-color);
+}
+
 .campaign {
   background-color: var(--background-color);
 }
 
-.purpose p,  .purpose ul {
+.purpose p,
+.purpose ul {
   font-size: 20px;
 }
 
@@ -803,6 +808,75 @@ h3 {
   padding-top: 15px;
   font-size: 50px;
   color: var(--primary-color);
+}
+
+.client-overview-section ul,
+.client-overview-section p {
+  font-size: 20px
+}
+
+/* Corporate Deck */
+
+.corporate-deck-hero,
+.media-kit-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      /* Dark overlay with transparency */
+      rgba(0, 0, 0, 0.7)
+      /* Same color to cover the entire section */
+    ), url("./images/case_study_bg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.corporate-hero-page,
+.media-hero-page {
+  height: 500px;
+}
+
+.deck-heading,
+.kit-heading {
+  color: #fafafa;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.deck-content,
+.kit-content {
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.deck-button,
+.kit-button {
+  background-color: transparent !important;
+  border: 1px solid #ffffff !important;
+  color: #ffffff !important;
+
+  padding: 12px 45px !important;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.deck-button:hover,
+.kit-button:hover {
+  border: none;
+  background-color: #ffffff !important;
+  color: var(--primary-color) !important;
+}
+
+.deck-shadow,
+.kit-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.deck-shadow:hover,
+.kit-shadow:hover {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {
@@ -822,6 +896,43 @@ h3 {
 
   .hero-heading {
     font-size: 60px;
+  }
+
+  .corporate-deck-hero,
+  .media-kit-hero {
+    background: var(--background-color);
+  }
+
+  .corporate-hero-page,
+  .media-hero-page {
+    height: 500px;
+  }
+
+  .deck-heading,
+  .kit-heading {
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .deck-content,
+  .kit-content {
+    color: var(--primary-color);
+    opacity: 0.8;
+  }
+
+  .deck-button,
+  .kit-button {
+    border: none !important;
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+  }
+
+  .deck-button:hover,
+  .kit-button:hover {
+    border: 1px solid var(--primary-color) !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
   }
 }
 
