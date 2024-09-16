@@ -4,27 +4,33 @@ import { formatNumber } from '../utils'; // Adjust the path as needed
 
 const Counters = () => {
   const counters = useRef([]);
+  const hasAnimated = useRef([]); // Tracks whether the counter has already been animated
 
+  const debounce = (func, wait) => {
+    let timeout;
+    return function (...args) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+  };
   useEffect(() => {
-    const handleScroll = () => {
-      counters.current.forEach(counter => {
-        if (counter && isInViewport(counter)) {
-          animateCounter(counter);
+    const handleScroll = debounce(() => {
+      counters.current.forEach((counter, index) => {
+        if (counter && !hasAnimated.current[index] && isInViewport(counter)) {
+          animateCounter(counter, index);
         }
       });
-    };
+    }, 100); // Debounce scroll events for better performance
 
     const isInViewport = (element) => {
       const rect = element.getBoundingClientRect();
       return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        rect.top < (window.innerHeight || document.documentElement.clientHeight) && // Partial visibility
+        rect.bottom > 0
       );
     };
 
-    const animateCounter = (counter) => {
+    const animateCounter = (counter, index) => {
       const target = +counter.getAttribute('data-target');
       let count = 0;
       const speed = 200; // Adjust speed of the counter increment
@@ -41,10 +47,13 @@ const Counters = () => {
       };
 
       updateCounter();
+      hasAnimated.current[index] = true; // Mark as animated
     };
 
+
+
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
+    handleScroll(); // Initial check in case the counters are already in the viewport
 
     return () => {
       window.removeEventListener('scroll', handleScroll);

@@ -1,10 +1,10 @@
 :root {
   --primary-color: #232c3c;
   --secondary-color: #9e8b5c;
-  --ternary-color: #00509E;
+  --ternary-color: #003B75;
   --accent-color: #f0a500;
   --background-color: #f5f5f5;
-  --text-color: #4A4A67;
+  --text-color: #3A3A50;
   --primary-font: "Roboto", sans-serif;
 }
 
@@ -546,9 +546,33 @@ iframe {
   transition: all 0.5s ease;
 }
 
+.footer ul li a {
+  display: inline-block;
+  transition: all 0.3s ease-out;
+}
+
+.footer-nav ul li a::after,
+.footer-services ul li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1.5px;
+  background-color: #ef2168;
+  transition: width 0.3s ease-out;
+
+}
+
 .footer ul li a:hover {
   color: #ef2168 !important;
+  transform: translateX(5px) !important;
   transition: all 0.3s ease-out;
+}
+
+.footer-nav ul li a:hover::after,
+.footer-services ul li a:hover::after {
+  width: 100%;
 }
 
 .to-top {
