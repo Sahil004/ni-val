@@ -52,7 +52,7 @@ const Contact = () => {
             <div className='container contact-main'>
                 <span className='section-subheading' data-aos="fade-up" data-aos-duration="1000">Contact Us</span>
                 <h2 className='section-heading' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    Get in touch, send us an e-mail or call us
+                    Connect With Us - Reach Out via Email or Phone
                 </h2>
 
                 <div className='row'>

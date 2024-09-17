@@ -1,5 +1,6 @@
 import React from 'react';
 import contentMarketing from '../../images/content-marketing.webp';
+import contentMarketingLg from '../../images/content-marketing-lg.webp';
 
 const ContentMarketing = () => {
     return (
@@ -12,7 +13,7 @@ const ContentMarketing = () => {
                             rgba(0, 0, 0, 0.7),
                             rgba(0, 0, 0, 0.7)
                         ),
-                        url('./images/content-marketing-lg.webp') no-repeat center center;
+                        url(${contentMarketingLg}) no-repeat;
                         background-size: cover;
                         min-height: 100vh; /* Ensure proper height for initial load */
                     }

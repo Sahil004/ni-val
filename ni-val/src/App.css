@@ -172,6 +172,8 @@ header li .nav-link:hover {
 .about-us {
   padding-top: 6em;
   padding-bottom: 6em;
+  background-image: radial-gradient(circle, #d3d3d3 1px, rgba(255, 255, 255, 0) 1px);
+  background-size: 20px 20px;
 }
 
 .section-subheading {
@@ -622,6 +624,11 @@ iframe {
   background-color: var(--background-color);
 }
 
+.service-overview {
+  background-image: radial-gradient(circle, #d3d3d3 1px, rgba(255, 255, 255, 0) 1px);
+  background-size: 20px 20px;
+}
+
 /* Lead Generation */
 
 .lead-generation {
@@ -925,6 +932,9 @@ h3 {
   .corporate-deck-hero,
   .media-kit-hero {
     background: var(--background-color);
+    background-image: radial-gradient(circle, #d3d3d3 1px, rgba(255, 255, 255, 0) 1px);
+    background-size: 20px 20px;
+
   }
 
   .corporate-hero-page,
